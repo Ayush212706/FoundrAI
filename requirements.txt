@@ -1,0 +1,16 @@
+Flask
+langchain
+langchain-community
+langchain-pinecone
+pinecone
+sentence-transformers
+huggingface_hub
+langchain-huggingface
+pandas
+openpyxl
+numpy
+scikit-learn
+python-dotenv
+requests
+ollama
+tqdm
