@@ -1,5 +1,7 @@
 from flask import Blueprint, render_template, request
 
+from src.services.assessment_service import process_assessment
+
 main = Blueprint("main", __name__)
 
 
@@ -13,21 +15,12 @@ def assessment():
 
     if request.method == "POST":
 
-        name = request.form.get("name")
-        age = request.form.get("age")
-        budget = request.form.get("budget")
-        occupation = request.form.get("occupation")
-        skill = request.form.get("skill")
+        founder_data = process_assessment(request.form)
 
-        print("\n========== Founder Assessment ==========")
-        print(f"Name       : {name}")
-        print(f"Age        : {age}")
-        print(f"Budget     : ₹{budget}")
-        print(f"Occupation : {occupation}")
-        print(f"Skill      : {skill}")
-        print("========================================\n")
-
-        return render_template("dashboard.html")
+        return render_template(
+            "dashboard.html",
+            founder=founder_data
+        )
 
     return render_template("assessment.html")
 
