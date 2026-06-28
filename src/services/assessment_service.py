@@ -3,6 +3,7 @@ from src.ml.predict_model import predict_founder_score
 from src.models.database import db
 from src.models.founder import Founder
 from src.services.report_service import generate_report
+from src.core.intelligence_engine import analyze_founder
 
 
 def process_assessment(form_data):
@@ -39,8 +40,13 @@ def process_assessment(form_data):
 
     }
 
+    # ML Prediction
     founder_data["score"] = predict_founder_score(founder_data)
 
+    # Decision Engine
+    founder_data["analysis"] = analyze_founder(founder_data)
+
+    # AI Advice
     founder_data["ai_advice"] = generate_founder_advice(founder_data)
 
     founder = Founder(
@@ -52,11 +58,8 @@ def process_assessment(form_data):
     )
 
     db.session.add(founder)
-
     db.session.commit()
 
-    report_path = generate_report(founder_data)
-
-    founder_data["report_path"] = report_path
+    founder_data["report_path"] = generate_report(founder_data)
 
     return founder_data

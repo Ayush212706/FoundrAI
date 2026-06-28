@@ -1,74 +1,224 @@
 {% extends "base.html" %}
 
-{% block title %}Dashboard{% endblock %}
+{% block title %}Founder Dashboard{% endblock %}
 
 {% block content %}
 
-<h1 class="mb-4">🚀 Founder Dashboard</h1>
+<div class="container mt-5">
 
-<div class="row">
+    <h1 class="mb-4 text-center">🚀 Founder Dashboard</h1>
 
-    <div class="col-md-4 mb-4">
+    <div class="row">
 
-        <div class="card metric-card">
+        <div class="col-md-3 mb-4">
 
-            <h2>{{ founder.score }}</h2>
+            <div class="card text-center shadow border-0 bg-primary text-white">
 
-            <p>Founder Score</p>
+                <div class="card-body">
+
+                    <h5>Founder Score</h5>
+
+                    <h1>{{ founder.score|round(2) }}</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-center shadow border-0 bg-success text-white">
+
+                <div class="card-body">
+
+                    <h5>Education</h5>
+
+                    <h4>{{ founder.education }}</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-center shadow border-0 bg-warning">
+
+                <div class="card-body">
+
+                    <h5>Occupation</h5>
+
+                    <h4>{{ founder.occupation }}</h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-center shadow border-0 bg-dark text-white">
+
+                <div class="card-body">
+
+                    <h5>Startup Stage</h5>
+
+                    <h4>{{ founder.startup_stage }}</h4>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
-    <div class="col-md-4 mb-4">
+    <div class="card shadow-lg border-0 mt-4">
 
-        <div class="card metric-card">
+        <div class="card-body">
 
-            <h2>{{ founder.education }}</h2>
+            <h3>🤖 AI Founder Mentor</h3>
 
-            <p>Education</p>
+            <hr>
+
+            <pre style="white-space: pre-wrap; font-family: inherit;">{{ founder.ai_advice }}</pre>
 
         </div>
 
     </div>
 
-    <div class="col-md-4 mb-4">
+    <div class="card shadow-lg border-0 mt-4">
 
-        <div class="card metric-card">
+        <div class="card-body">
 
-            <h2>{{ founder.occupation }}</h2>
+            <h3>📄 Founder Report</h3>
 
-            <p>Occupation</p>
+            <p>Your personalized founder report has been generated.</p>
+
+            <a href="/{{ founder.report_path }}"
+               target="_blank"
+               class="btn btn-success">
+
+                Download Founder Report
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="card shadow-lg border-0 mt-4">
+
+        <div class="card-body">
+
+            <h3>📈 Founder Skills</h3>
+
+            <table class="table">
+
+                <tr>
+                    <th>Programming</th>
+                    <td>{{ founder.programming }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Marketing</th>
+                    <td>{{ founder.marketing }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Finance</th>
+                    <td>{{ founder.finance }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Leadership</th>
+                    <td>{{ founder.leadership }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Communication</th>
+                    <td>{{ founder.communication }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Problem Solving</th>
+                    <td>{{ founder.problem_solving }}/10</td>
+                </tr>
+
+                <tr>
+                    <th>Risk Tolerance</th>
+                    <td>{{ founder.risk_tolerance }}/10</td>
+                </tr>
+
+            </table>
 
         </div>
 
     </div>
 
 </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<div class="card p-4 mt-4">
+<canvas id="skillsChart" height="120"></canvas>
 
-    <h3>🤖 AI Mentor</h3>
+<script>
 
-    <hr>
+const ctx = document.getElementById("skillsChart");
 
-    <pre style="white-space:pre-wrap;">{{ founder.ai_advice }}</pre>
+new Chart(ctx, {
 
-</div>
+    type: "radar",
 
-<div class="card p-4 mt-4">
+    data: {
 
-    <h3>📄 Founder Report</h3>
+        labels: [
 
-    <a
-        href="/{{ founder.report_path }}"
-        target="_blank"
-        class="btn btn-success">
+            "Programming",
 
-        Download Founder Report
+            "Marketing",
 
-    </a>
+            "Finance",
 
-</div>
+            "Leadership",
+
+            "Communication",
+
+            "Problem Solving",
+
+            "Risk"
+
+        ],
+
+        datasets: [{
+
+            label: "Founder Skills",
+
+            data: [
+
+                {{ founder.programming }},
+
+                {{ founder.marketing }},
+
+                {{ founder.finance }},
+
+                {{ founder.leadership }},
+
+                {{ founder.communication }},
+
+                {{ founder.problem_solving }},
+
+                {{ founder.risk_tolerance }}
+
+            ]
+
+        }]
+
+    }
+
+});
+
 
 {% endblock %}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5" style="max-width:600px">
+
+<h2>Create Founder Account</h2>
+
+<form method="POST">
+
+<div class="mb-3">
+<label>Username</label>
+<input
+class="form-control"
+name="username"
+required>
+</div>
+
+<div class="mb-3">
+<label>Email</label>
+<input
+type="email"
+class="form-control"
+name="email"
+required>
+</div>
+
+<div class="mb-3">
+<label>Password</label>
+<input
+type="password"
+class="form-control"
+name="password"
+required>
+</div>
+
+<div class="mb-3">
+<label>Startup Name</label>
+<input
+class="form-control"
+name="startup_name">
+</div>
+
+<div class="mb-3">
+<label>Industry</label>
+<input
+class="form-control"
+name="industry">
+</div>
+
+<button class="btn btn-primary w-100">
+
+Create Account
+
+</button>
+
+</form>
+
+</div>
+
+{% endblock %}
