@@ -1,41 +1,81 @@
 body{
-    background:#f4f7fb;
-    font-family:Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:white;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.navbar{
+    background:#111827 !important;
 }
 
 .card{
+    background:#1e293b;
     border:none;
-    border-radius:20px;
+    border-radius:18px;
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+    color:white;
 }
 
-.progress{
-    border-radius:20px;
+.btn-primary{
+    background:#2563eb;
+    border:none;
+    border-radius:10px;
+    padding:12px 24px;
 }
 
-.progress-bar{
-    border-radius:20px;
+.btn-primary:hover{
+    background:#1d4ed8;
 }
 
-.form-control{
-
-    padding:12px;
-
-    border-radius:12px;
-
-}
-
+.form-control,
 .form-select{
-
-    padding:12px;
-
-    border-radius:12px;
-
+    background:#1e293b;
+    color:white;
+    border:1px solid #334155;
 }
 
-.btn{
+.form-control:focus,
+.form-select:focus{
+    background:#1e293b;
+    color:white;
+    border-color:#3b82f6;
+    box-shadow:none;
+}
 
-    border-radius:12px;
+.form-control::placeholder{
+    color:#94a3b8;
+}
 
-    padding:12px 30px;
+.hero{
+    padding:80px 0;
+}
 
+.hero h1{
+    font-size:56px;
+    font-weight:700;
+}
+
+.hero p{
+    color:#cbd5e1;
+    font-size:20px;
+}
+
+.section-title{
+    font-size:34px;
+    font-weight:700;
+    margin-bottom:30px;
+}
+
+.metric-card{
+    text-align:center;
+    padding:25px;
+}
+
+.metric-card h2{
+    font-size:42px;
+    color:#60a5fa;
+}
+
+.metric-card p{
+    color:#cbd5e1;
 }

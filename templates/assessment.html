@@ -1,162 +1,121 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
+{% block title %}Founder Assessment{% endblock %}
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% block content %}
 
-    <title>Founder Assessment</title>
+<h2 class="mb-4 text-center">Founder Assessment</h2>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<div class="progress mb-4" style="height:10px;">
+    <div class="progress-bar" style="width:25%" id="progressBar"></div>
+</div>
 
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='css/style.css') }}">
+<form method="POST">
 
-</head>
+<!-- STEP 1 -->
 
-<body>
+<div id="step1" class="step">
 
-<div class="container py-5">
+    <h4>Step 1 - Personal Information</h4>
 
-    <h1 class="text-center fw-bold mb-4">
-        Founder Assessment
-    </h1>
+    <input class="form-control mb-3" name="name" placeholder="Full Name" required>
 
-    <p class="text-center text-secondary">
+    <input class="form-control mb-3" type="number" name="age" placeholder="Age" required>
 
-        Step 1 of 5
+    <select class="form-select mb-3" name="education">
+        <option>School</option>
+        <option>Diploma</option>
+        <option>Bachelor's Degree</option>
+        <option>Master's Degree</option>
+        <option>PhD</option>
+    </select>
 
-    </p>
+    <input class="form-control mb-4" name="occupation" placeholder="Occupation">
 
-    <div class="progress mb-5" style="height:12px;">
-
-        <div class="progress-bar bg-primary"
-
-             role="progressbar"
-
-             style="width:20%;">
-
-        </div>
-
-    </div>
-
-    <div class="card shadow-lg p-5">
-
-        <h3 class="mb-4">
-
-            Personal Information
-
-        </h3>
-
-        <form method="POST">
-
-            <div class="mb-3">
-
-                <label class="form-label">
-
-                    Full Name
-
-                </label>
-
-                <input
-
-                    type="text"
-
-                    class="form-control"
-
-                    name="name"
-
-                    required>
-
-            </div>
-
-            <div class="mb-3">
-
-                <label class="form-label">
-
-                    Age
-
-                </label>
-
-                <input
-
-                    type="number"
-
-                    class="form-control"
-
-                    name="age"
-
-                    required>
-
-            </div>
-
-            <div class="mb-3">
-
-                <label class="form-label">
-
-                    Education
-
-                </label>
-
-                <select
-
-                    class="form-select"
-
-                    name="education">
-
-                    <option>School</option>
-
-                    <option>Diploma</option>
-
-                    <option>Bachelor's Degree</option>
-
-                    <option>Master's Degree</option>
-
-                    <option>PhD</option>
-
-                </select>
-
-            </div>
-
-            <div class="mb-4">
-
-                <label class="form-label">
-
-                    Occupation
-
-                </label>
-
-                <input
-
-                    type="text"
-
-                    class="form-control"
-
-                    name="occupation">
-
-            </div>
-
-            <div class="d-flex justify-content-end">
-
-                <button
-
-                    class="btn btn-primary btn-lg"
-
-                    type="submit">
-
-                    Continue →
-
-                </button>
-
-            </div>
-
-        </form>
-
-    </div>
+    <button type="button" class="btn btn-primary" onclick="nextStep()">
+        Next →
+    </button>
 
 </div>
 
-</body>
+<!-- STEP 2 -->
 
-</html>
+<div id="step2" class="step">
+
+    <h4>Step 2 - Startup Information</h4>
+
+    <input class="form-control mb-3" type="number" name="budget" placeholder="Budget">
+
+    <input class="form-control mb-3" type="number" name="team_size" placeholder="Team Size">
+
+    <select class="form-select mb-4" name="startup_stage">
+        <option>Idea</option>
+        <option>Prototype</option>
+        <option>MVP</option>
+        <option>Early Revenue</option>
+        <option>Scaling</option>
+    </select>
+
+    <button type="button" class="btn btn-secondary" onclick="previousStep()">
+        ← Back
+    </button>
+
+    <button type="button" class="btn btn-primary" onclick="nextStep()">
+        Next →
+    </button>
+
+</div>
+
+<!-- STEP 3 -->
+
+<div id="step3" class="step">
+
+    <h4>Step 3 - Skills</h4>
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="programming" placeholder="Programming">
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="marketing" placeholder="Marketing">
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="finance" placeholder="Finance">
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="leadership" placeholder="Leadership">
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="communication" placeholder="Communication">
+
+    <input class="form-control mb-2" type="number" min="1" max="10" name="problem_solving" placeholder="Problem Solving">
+
+    <input class="form-control mb-4" type="number" min="1" max="10" name="risk_tolerance" placeholder="Risk Tolerance">
+
+    <button type="button" class="btn btn-secondary" onclick="previousStep()">
+        ← Back
+    </button>
+
+    <button type="button" class="btn btn-primary" onclick="nextStep()">
+        Next →
+    </button>
+
+</div>
+
+<!-- STEP 4 -->
+
+<div id="step4" class="step">
+
+    <h4>Ready?</h4>
+
+    <p>Click below to let FoundrAI analyze your profile.</p>
+
+    <button type="button" class="btn btn-secondary" onclick="previousStep()">
+        ← Back
+    </button>
+
+    <button class="btn btn-success">
+        🚀 Analyze Founder
+    </button>
+
+</div>
+
+</form>
+
+<script src="{{ url_for('static', filename='js/assessment.js') }}"></script>
+
+{% endblock %}

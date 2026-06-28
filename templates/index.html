@@ -1,87 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoundrAI</title>
+{% block title %}FoundrAI{% endblock %}
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+{% block content %}
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
+<div class="hero text-center">
 
-<body>
+    <h1>FoundrAI</h1>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+    <p class="mt-4">
+        Your AI Powered Startup Co-Founder
+    </p>
 
-        <a class="navbar-brand fw-bold fs-3" href="/">
-            🚀 FoundrAI
-        </a>
+    <a href="/assessment" class="btn btn-primary btn-lg mt-4">
+        Start Assessment
+    </a>
 
-        <div>
-            <a href="/" class="btn btn-outline-light me-2">Home</a>
-            <a href="/assessment" class="btn btn-primary">Start Assessment</a>
-        </div>
+</div>
 
-    </div>
-</nav>
+<div class="row mt-5">
 
-<section class="hero text-center">
+    <div class="col-md-4">
 
-    <div class="container">
+        <div class="card metric-card">
 
-        <h1 class="display-2 fw-bold">
-            Build Your Startup with AI
-        </h1>
+            <h2>AI</h2>
 
-        <p class="lead mt-4">
+            <p>Generative AI Mentor</p>
 
-            FoundrAI helps aspiring entrepreneurs validate startup ideas,
-            analyze founder strengths, predict success, and generate
-            intelligent business reports using Artificial Intelligence and
-            Machine Learning.
-
-        </p>
-
-        <a href="/assessment" class="btn btn-primary btn-lg mt-4">
-            Start Your Journey
-        </a>
-
-    </div>
-
-</section>
-
-<section class="container mt-5">
-
-    <div class="row g-4">
-
-        <div class="col-md-4">
-            <div class="feature-card">
-                <h3>🧠 AI Guidance</h3>
-                <p>Receive personalized startup advice powered by AI.</p>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="feature-card">
-                <h3>📊 ML Prediction</h3>
-                <p>Estimate startup success using machine learning models.</p>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="feature-card">
-                <h3>📄 Business Report</h3>
-                <p>Generate a professional startup report instantly.</p>
-            </div>
         </div>
 
     </div>
 
-</section>
+    <div class="col-md-4">
 
-</body>
+        <div class="card metric-card">
 
-</html>
+            <h2>ML</h2>
+
+            <p>Founder Score Prediction</p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="card metric-card">
+
+            <h2>RAG</h2>
+
+            <p>Startup Knowledge Assistant</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

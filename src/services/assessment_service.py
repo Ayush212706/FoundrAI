@@ -1,4 +1,8 @@
-from src.core.founder_score import calculate_founder_score
+from src.ai.ai_service import generate_founder_advice
+from src.ml.predict_model import predict_founder_score
+from src.models.database import db
+from src.models.founder import Founder
+from src.services.report_service import generate_report
 
 
 def process_assessment(form_data):
@@ -7,22 +11,52 @@ def process_assessment(form_data):
 
         "name": form_data.get("name"),
 
-        "age": form_data.get("age"),
+        "age": int(form_data.get("age")),
 
         "education": form_data.get("education"),
 
-        "occupation": form_data.get("occupation")
+        "occupation": form_data.get("occupation"),
+
+        "budget": int(form_data.get("budget")),
+
+        "team_size": int(form_data.get("team_size")),
+
+        "programming": int(form_data.get("programming")),
+
+        "marketing": int(form_data.get("marketing")),
+
+        "finance": int(form_data.get("finance")),
+
+        "leadership": int(form_data.get("leadership")),
+
+        "risk_tolerance": int(form_data.get("risk_tolerance")),
+
+        "communication": int(form_data.get("communication")),
+
+        "problem_solving": int(form_data.get("problem_solving")),
+
+        "startup_stage": form_data.get("startup_stage")
 
     }
 
-    founder_data["score"] = calculate_founder_score(founder_data)
+    founder_data["score"] = predict_founder_score(founder_data)
 
-    print("\n========== Founder Assessment ==========")
+    founder_data["ai_advice"] = generate_founder_advice(founder_data)
 
-    for key, value in founder_data.items():
+    founder = Founder(
+        name=founder_data["name"],
+        age=founder_data["age"],
+        education=founder_data["education"],
+        occupation=founder_data["occupation"],
+        score=int(founder_data["score"])
+    )
 
-        print(f"{key.title():12}: {value}")
+    db.session.add(founder)
 
-    print("========================================\n")
+    db.session.commit()
+
+    report_path = generate_report(founder_data)
+
+    founder_data["report_path"] = report_path
 
     return founder_data

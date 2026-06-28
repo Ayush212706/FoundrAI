@@ -1,0 +1,1001 @@
+age,education,budget,team_size,programming,marketing,finance,leadership,risk_tolerance,communication,problem_solving,startup_stage,score
+30,Bachelor's Degree,3794498,18,4,8,3,7,3,1,10,Idea,100
+49,Diploma,3015836,12,10,9,5,4,10,9,1,Scaling,100
+19,PhD,1996241,11,4,2,9,7,9,6,4,Early Revenue,93
+33,Bachelor's Degree,4530346,1,7,7,9,2,5,8,2,Prototype,89
+44,Bachelor's Degree,3610898,3,2,8,5,10,1,6,2,Early Revenue,89
+18,Diploma,1710548,4,9,2,3,10,10,9,5,Scaling,100
+40,School,2693664,6,1,10,9,1,5,6,2,Idea,83
+26,PhD,2573336,18,3,6,10,6,4,8,7,MVP,100
+28,Master's Degree,3527117,9,1,1,1,7,10,1,5,Scaling,75
+43,Bachelor's Degree,1293163,13,5,10,7,9,5,6,1,Prototype,100
+31,Diploma,856277,14,10,2,5,5,9,1,2,Early Revenue,88
+36,Master's Degree,4085436,13,9,3,5,10,3,8,3,Prototype,100
+43,PhD,3585328,20,1,6,2,10,5,10,3,Idea,92
+26,Master's Degree,4262183,11,8,3,7,9,2,7,5,Scaling,100
+21,PhD,308214,10,1,10,3,3,10,8,2,Idea,88
+45,Bachelor's Degree,1949462,15,3,4,4,7,2,5,3,Scaling,80
+43,Master's Degree,2145481,5,1,1,4,3,2,8,7,Early Revenue,73
+18,School,3413066,6,6,3,6,6,8,4,6,Prototype,95
+50,PhD,3530719,9,3,8,3,7,2,8,5,Scaling,94
+26,PhD,1224995,5,10,5,3,1,1,3,5,MVP,84
+23,Bachelor's Degree,882708,5,2,10,1,3,1,9,9,Idea,94
+50,PhD,1492607,13,2,5,4,5,1,3,4,Idea,75
+40,Diploma,4892680,2,3,3,3,1,8,2,10,Idea,79
+22,Master's Degree,2601481,17,1,4,1,10,2,4,7,Prototype,86
+29,School,1021490,12,7,3,4,2,7,1,2,Idea,75
+49,PhD,3545925,9,2,8,4,9,6,6,10,Prototype,100
+31,PhD,4137713,12,8,7,2,8,2,2,3,Early Revenue,93
+30,Diploma,3818888,4,8,8,9,7,9,4,2,Prototype,100
+23,Bachelor's Degree,3316746,20,7,10,3,4,7,3,10,Early Revenue,100
+40,Diploma,1267218,12,3,1,9,7,4,9,7,MVP,93
+27,School,266494,19,9,6,8,7,5,7,1,Idea,100
+29,School,4824729,19,4,8,7,7,9,3,2,MVP,96
+22,School,2025131,8,7,4,9,5,1,1,10,Early Revenue,98
+28,PhD,819536,18,3,5,10,2,10,6,4,MVP,89
+40,School,2144321,17,2,1,6,6,10,8,6,Idea,89
+49,School,2045026,10,2,1,8,3,8,9,1,MVP,74
+41,PhD,919034,8,1,4,1,7,1,4,3,Prototype,71
+35,Bachelor's Degree,4107433,11,10,4,1,3,10,6,5,Early Revenue,96
+40,School,4431297,18,10,2,10,4,10,10,2,Early Revenue,100
+21,Master's Degree,3726534,3,8,5,5,3,9,5,8,Early Revenue,100
+49,Master's Degree,336190,14,4,6,1,1,9,4,1,Early Revenue,73
+37,PhD,974827,15,2,3,8,6,6,6,3,Idea,83
+25,School,3067058,15,5,1,2,7,7,6,5,Prototype,86
+23,School,4173884,14,1,2,6,10,7,5,5,Prototype,89
+19,PhD,3928130,14,4,6,8,5,3,2,8,Scaling,94
+37,Diploma,3736760,3,8,10,2,2,10,5,4,Early Revenue,98
+50,School,3950633,13,3,7,10,3,2,9,2,Prototype,86
+23,School,2589834,9,4,1,7,1,3,1,3,Idea,64
+18,Master's Degree,3050045,10,7,3,9,1,5,2,6,Prototype,85
+46,Bachelor's Degree,4507977,17,6,1,9,9,4,8,5,Prototype,98
+26,PhD,3740428,7,9,1,4,6,10,6,3,Idea,93
+26,School,3699525,13,9,5,5,1,4,3,10,Prototype,97
+29,Master's Degree,797019,13,7,1,8,4,7,5,10,Prototype,99
+37,School,2540950,2,5,5,7,2,8,7,5,MVP,88
+22,Diploma,4179325,9,2,3,5,10,2,3,4,Prototype,83
+35,School,991306,10,1,10,2,9,4,9,10,Prototype,100
+31,School,2493042,17,1,2,6,5,2,7,6,Scaling,78
+27,Master's Degree,1830945,9,8,8,1,2,7,6,6,Prototype,97
+28,PhD,2487305,11,4,4,7,3,2,8,4,Idea,82
+30,Bachelor's Degree,3635907,17,1,6,3,5,10,6,9,Early Revenue,96
+31,School,943454,8,4,9,3,9,6,7,7,Idea,100
+29,Diploma,3302040,13,1,8,3,8,7,9,7,MVP,100
+27,PhD,4109368,20,8,3,2,2,8,10,7,Scaling,95
+29,Diploma,1907024,10,6,2,8,2,5,9,7,Idea,91
+25,Diploma,2286086,12,2,9,5,2,8,7,3,Early Revenue,87
+20,Bachelor's Degree,684354,14,7,5,6,7,4,9,1,Early Revenue,94
+31,Diploma,2970275,3,2,4,9,2,7,8,3,MVP,79
+45,Master's Degree,3843451,2,6,3,1,7,4,2,1,Prototype,73
+32,PhD,3151179,3,3,5,1,8,4,10,2,MVP,84
+26,Master's Degree,4822153,2,10,10,9,10,9,1,9,Idea,100
+32,Master's Degree,3157469,8,1,2,2,10,2,4,3,Early Revenue,75
+47,School,2112397,6,8,2,5,3,2,5,6,Idea,85
+42,School,3799535,12,2,3,6,9,7,5,3,Early Revenue,87
+23,Diploma,4598499,18,2,9,2,9,10,10,7,Scaling,100
+26,Diploma,2949930,3,3,9,4,8,7,10,5,Early Revenue,100
+37,PhD,2034046,16,5,4,1,10,3,4,6,Idea,93
+24,School,376301,18,6,5,7,6,1,10,2,Idea,91
+45,School,3318304,19,6,2,4,10,6,5,9,Early Revenue,100
+21,School,224549,19,4,10,6,4,3,9,6,Prototype,100
+24,School,4260900,3,6,2,9,9,9,5,4,Prototype,98
+31,Bachelor's Degree,1653803,5,6,3,1,7,10,2,10,MVP,100
+29,Master's Degree,3457027,11,10,4,8,4,6,3,8,Scaling,100
+27,School,523020,11,10,2,6,4,2,2,2,Idea,81
+41,Master's Degree,1510155,16,8,8,10,5,10,4,8,MVP,100
+27,Diploma,59121,19,5,2,8,1,2,7,8,Early Revenue,84
+26,Master's Degree,4756894,20,8,3,3,4,5,4,5,Idea,87
+33,Diploma,668013,19,8,4,9,1,4,10,6,MVP,96
+18,Diploma,4796294,12,6,7,2,5,4,3,10,Idea,100
+32,PhD,4394275,18,10,3,8,1,10,3,2,MVP,88
+34,School,3610199,13,3,2,5,7,2,3,7,Early Revenue,83
+19,Bachelor's Degree,235575,12,2,8,7,1,3,1,8,Prototype,84
+37,School,1116515,5,4,4,7,10,8,5,5,Early Revenue,100
+42,Bachelor's Degree,3726801,8,9,1,4,7,3,5,9,Idea,99
+44,Master's Degree,2746720,14,6,4,3,1,3,8,4,Idea,79
+32,School,2714570,10,2,3,7,10,3,5,2,Idea,84
+38,Diploma,4075453,1,3,6,10,3,7,9,10,Early Revenue,100
+49,PhD,1108978,11,10,5,2,6,5,5,7,Scaling,100
+29,School,1839136,17,3,8,9,4,8,2,8,Idea,100
+20,Bachelor's Degree,1116671,7,3,6,8,7,8,1,5,Early Revenue,94
+28,Bachelor's Degree,1484046,6,8,6,4,10,7,3,2,MVP,100
+30,Diploma,401077,8,6,4,9,9,3,2,6,Idea,99
+31,School,1666714,19,9,8,8,4,3,7,3,Prototype,100
+19,Bachelor's Degree,823252,20,2,1,10,7,9,8,5,Prototype,92
+39,PhD,1386094,13,7,1,1,8,1,1,10,MVP,90
+44,Master's Degree,2937104,20,3,2,3,5,2,4,7,Early Revenue,78
+45,School,4750998,17,4,7,10,7,10,6,9,Prototype,100
+38,PhD,795282,17,1,2,2,10,2,10,7,MVP,89
+48,Diploma,4602692,17,2,9,5,10,7,5,10,MVP,100
+24,Bachelor's Degree,2876790,10,4,1,5,5,3,9,3,Scaling,78
+22,School,4840623,2,3,2,2,5,10,10,4,Early Revenue,82
+30,Bachelor's Degree,3626453,7,4,7,2,6,1,2,6,Early Revenue,86
+29,PhD,2721738,6,5,5,8,8,3,1,5,MVP,93
+31,Bachelor's Degree,652519,18,5,2,3,10,8,4,3,Scaling,90
+24,School,4224093,16,2,9,4,3,4,4,10,Scaling,95
+29,PhD,3060799,15,2,3,4,5,1,7,7,Early Revenue,81
+32,Bachelor's Degree,1522418,4,1,5,1,1,9,2,9,MVP,78
+39,Bachelor's Degree,28084,13,2,1,7,7,2,1,2,Prototype,69
+47,Master's Degree,1482564,2,4,1,5,3,9,10,8,Prototype,88
+33,PhD,1979777,9,7,8,10,9,1,1,6,Scaling,100
+18,Master's Degree,2618157,12,8,8,5,9,6,4,9,MVP,100
+28,Master's Degree,264250,4,7,3,5,3,1,1,8,Scaling,83
+19,School,76901,9,2,3,1,4,9,3,9,MVP,84
+43,Bachelor's Degree,3640314,7,7,10,2,7,10,8,5,Idea,100
+43,Master's Degree,128891,16,9,7,9,4,3,10,1,Idea,99
+25,School,2382255,18,6,7,3,2,8,2,4,Scaling,86
+24,Diploma,4244438,19,2,7,7,2,3,2,5,Idea,79
+24,Master's Degree,2292942,16,10,6,10,6,7,9,3,Prototype,100
+47,Bachelor's Degree,84841,15,10,9,3,8,5,2,10,Idea,100
+31,Bachelor's Degree,3538001,16,10,9,10,9,10,10,9,Idea,100
+23,Bachelor's Degree,3501056,12,8,8,5,6,7,3,3,Scaling,100
+46,Diploma,705135,12,8,5,4,8,3,3,1,Scaling,89
+46,Diploma,3790430,19,6,7,8,3,10,2,5,Idea,97
+47,PhD,3099324,10,6,2,10,10,9,8,6,MVP,100
+28,PhD,4838943,17,5,7,9,4,1,10,9,Early Revenue,100
+22,Diploma,1394951,18,3,10,8,4,8,2,6,MVP,99
+20,School,480531,5,3,6,3,10,2,4,6,Early Revenue,94
+48,Master's Degree,3160943,1,5,10,5,3,1,10,3,Idea,89
+30,Bachelor's Degree,1231155,11,1,10,5,2,1,2,5,MVP,79
+49,Bachelor's Degree,3835650,19,7,10,1,4,9,6,9,Idea,100
+33,School,4831873,11,3,2,8,2,4,1,3,Scaling,68
+46,Master's Degree,4662777,20,8,4,1,6,5,5,6,Idea,94
+35,School,951446,4,7,1,4,9,5,4,7,Early Revenue,95
+46,Bachelor's Degree,1590441,4,5,7,5,3,7,2,6,Prototype,90
+36,School,2216409,19,9,7,9,2,6,8,6,Early Revenue,100
+47,Diploma,4610462,19,4,7,3,5,7,7,10,Scaling,100
+46,Bachelor's Degree,3689913,17,10,7,2,3,8,5,3,Prototype,96
+36,Diploma,111584,1,1,3,6,5,6,5,1,Scaling,68
+50,PhD,450233,5,5,1,8,5,4,4,8,Scaling,89
+32,School,3097016,2,8,5,9,1,2,2,9,Idea,91
+18,Bachelor's Degree,1839241,7,1,4,6,5,10,7,1,Idea,80
+40,School,1644987,4,8,8,1,2,2,4,10,MVP,97
+18,Master's Degree,4450092,19,4,4,9,8,6,3,2,Scaling,89
+44,School,3983118,13,2,1,1,1,2,9,6,MVP,67
+28,Diploma,3755105,6,10,7,4,2,5,6,6,Idea,100
+18,School,1889348,2,3,10,3,9,4,1,1,MVP,86
+38,Bachelor's Degree,627265,11,6,2,6,7,2,2,10,MVP,95
+43,Diploma,3420350,14,2,2,10,1,5,5,2,Prototype,69
+23,Master's Degree,2298301,17,6,8,9,10,2,3,10,MVP,100
+37,Master's Degree,1543796,13,1,7,7,4,8,8,7,Scaling,96
+28,Bachelor's Degree,1842879,14,7,2,9,5,4,10,1,Scaling,88
+43,Master's Degree,2662105,20,6,4,6,6,1,1,6,MVP,87
+20,Diploma,4072737,19,5,6,6,3,4,4,9,Prototype,95
+26,School,1965139,6,6,1,4,6,8,7,6,MVP,92
+34,PhD,2303848,5,8,8,9,4,8,6,10,MVP,100
+48,PhD,751315,10,2,1,2,6,1,7,3,Scaling,69
+47,Bachelor's Degree,2174610,19,5,1,7,8,5,3,7,Prototype,92
+46,PhD,2180276,11,5,3,6,2,4,2,2,Idea,71
+33,Diploma,4105933,14,2,6,8,2,8,5,8,Scaling,92
+20,Diploma,4273529,9,8,3,5,3,1,9,1,Idea,80
+27,Bachelor's Degree,3089515,20,10,6,10,10,4,8,6,Idea,100
+44,PhD,1341018,15,7,7,10,1,5,1,9,Scaling,99
+50,Master's Degree,4954867,1,2,2,7,9,1,3,5,Prototype,78
+46,Master's Degree,2840578,16,4,3,9,1,8,2,6,Scaling,82
+23,Master's Degree,4730954,18,3,5,10,3,2,3,8,Idea,88
+21,Diploma,2429017,3,1,2,1,5,10,2,5,Early Revenue,72
+20,Bachelor's Degree,414732,6,1,9,9,7,2,1,3,Scaling,87
+20,Diploma,897724,14,1,8,7,1,1,8,5,Early Revenue,81
+42,Diploma,2443139,19,2,5,1,4,8,1,4,Early Revenue,75
+44,Diploma,973380,14,5,1,8,6,4,4,3,Prototype,81
+33,Master's Degree,2265406,8,10,6,10,8,7,2,9,Prototype,100
+44,Bachelor's Degree,4327174,3,4,3,8,5,3,5,4,Prototype,81
+31,Master's Degree,3963317,14,3,3,1,9,5,5,3,Prototype,82
+43,PhD,4404006,4,4,2,2,9,9,9,8,Early Revenue,100
+50,Master's Degree,761547,18,9,10,4,6,1,9,4,Scaling,100
+36,Diploma,4186313,19,3,10,6,8,3,4,8,Scaling,100
+25,Diploma,4043096,19,2,1,1,7,1,3,9,Prototype,78
+45,PhD,3565975,16,6,3,1,5,3,1,6,Scaling,80
+23,Bachelor's Degree,3338111,13,1,5,10,7,5,6,9,MVP,100
+44,Master's Degree,2825143,19,1,5,8,4,7,7,1,Scaling,79
+23,Bachelor's Degree,4594191,10,2,1,4,7,2,3,10,Idea,84
+38,Master's Degree,1262851,15,9,2,3,9,2,9,4,MVP,97
+49,School,1649280,6,9,3,9,6,2,7,6,Scaling,100
+24,Diploma,1018613,10,4,9,5,6,2,9,1,MVP,91
+23,School,3086478,16,6,2,8,1,10,8,5,Idea,89
+48,School,3212276,5,4,8,2,1,4,6,9,MVP,91
+31,Master's Degree,899922,13,5,9,5,6,10,10,1,MVP,100
+19,Diploma,3715235,7,6,7,10,5,3,4,9,Early Revenue,100
+23,PhD,1470267,11,3,9,5,7,5,3,3,Scaling,92
+29,School,2260572,2,6,9,4,9,9,5,9,Prototype,100
+29,Bachelor's Degree,3758202,16,3,9,4,1,2,6,2,MVP,77
+24,PhD,3965866,7,8,9,10,5,10,7,4,Prototype,100
+21,School,261969,10,3,9,10,3,1,5,10,Idea,100
+46,Diploma,1777231,10,1,2,8,8,9,1,2,Prototype,79
+24,Bachelor's Degree,3274722,14,1,1,2,10,7,8,4,Idea,84
+39,Bachelor's Degree,4190955,13,10,6,6,6,4,9,9,MVP,100
+41,Diploma,1203425,1,8,1,6,9,4,8,7,MVP,99
+28,School,82275,7,1,7,3,8,4,7,10,MVP,100
+28,PhD,3607947,1,5,2,5,10,8,2,2,MVP,84
+30,Bachelor's Degree,1566601,2,7,6,2,4,3,8,1,Idea,81
+41,PhD,2115688,1,3,6,6,2,9,7,10,MVP,95
+38,Bachelor's Degree,2508443,6,9,9,10,2,5,6,4,Prototype,100
+33,Master's Degree,3477947,15,1,4,3,3,2,6,6,Scaling,74
+30,Master's Degree,649044,17,1,1,4,9,7,2,7,Prototype,84
+21,PhD,4828590,16,7,10,10,7,7,1,4,Early Revenue,100
+45,Master's Degree,4615255,7,7,7,4,4,2,1,10,Scaling,98
+19,PhD,1516227,1,6,9,7,5,2,1,10,Early Revenue,100
+21,School,681494,11,6,8,2,7,2,10,1,Scaling,93
+43,Bachelor's Degree,1991448,2,10,8,7,3,8,6,1,Prototype,97
+37,PhD,2306688,6,8,8,6,3,9,5,1,MVP,95
+21,PhD,2379048,6,4,9,6,7,2,1,4,MVP,92
+33,Bachelor's Degree,243609,4,6,3,1,4,6,5,3,Idea,78
+49,Master's Degree,2077009,20,10,9,9,1,7,9,3,Early Revenue,100
+42,PhD,4766891,7,2,8,4,4,6,3,2,Idea,80
+27,Bachelor's Degree,2620162,15,6,1,3,1,1,1,10,Early Revenue,76
+20,PhD,166241,18,3,9,1,1,8,2,9,Scaling,90
+27,Bachelor's Degree,748279,8,4,8,7,4,5,6,9,Scaling,100
+38,Master's Degree,4464063,7,3,4,10,7,7,6,2,Early Revenue,90
+42,School,1670505,1,5,6,2,10,9,5,9,Early Revenue,100
+18,Bachelor's Degree,2071426,19,1,10,6,9,3,9,3,Idea,99
+24,Bachelor's Degree,100957,2,6,7,5,3,9,8,2,MVP,90
+19,Diploma,280266,14,6,7,10,8,9,3,6,Prototype,100
+40,Master's Degree,1442342,6,1,2,9,3,2,1,2,Scaling,63
+27,Diploma,555955,15,2,1,8,2,6,7,2,Early Revenue,70
+21,Diploma,4012679,16,7,7,8,5,10,10,5,Prototype,100
+24,PhD,3353819,17,7,5,2,2,1,6,4,Prototype,80
+33,School,1170352,20,9,6,1,5,6,9,2,Scaling,95
+18,Diploma,2720792,1,5,8,9,9,10,8,2,Idea,100
+38,Master's Degree,2758834,6,8,10,2,4,7,9,9,Scaling,100
+50,Master's Degree,1340764,6,8,7,10,5,9,4,7,Scaling,100
+31,Diploma,3665420,15,8,5,8,6,2,3,5,Idea,96
+23,PhD,2002682,3,1,3,1,7,9,8,4,Idea,81
+26,PhD,4785905,9,4,8,7,5,5,3,1,MVP,86
+34,Master's Degree,3794807,13,7,2,10,9,6,2,3,Early Revenue,95
+30,Bachelor's Degree,2749584,14,3,7,8,5,1,10,6,Early Revenue,96
+43,Master's Degree,137516,1,3,2,5,3,6,1,5,Prototype,69
+47,Bachelor's Degree,1327989,19,2,6,4,5,2,9,4,Idea,84
+28,School,3847051,5,5,9,6,6,8,4,5,Early Revenue,100
+45,Master's Degree,3616952,20,1,9,3,2,3,7,1,Early Revenue,74
+49,Diploma,1394890,3,10,4,5,5,2,5,7,Scaling,97
+22,Bachelor's Degree,1578401,3,1,8,5,10,2,3,3,Early Revenue,87
+49,School,3328215,7,10,9,7,2,4,6,2,MVP,98
+29,School,3505416,12,5,7,9,5,7,5,1,Early Revenue,92
+46,PhD,4630963,11,6,7,4,6,5,6,5,Prototype,98
+26,School,2486456,19,3,6,6,10,5,9,1,Scaling,95
+48,PhD,1748866,8,8,7,2,1,5,8,4,Idea,90
+18,Bachelor's Degree,1855290,5,7,5,9,6,9,2,1,Prototype,93
+24,Bachelor's Degree,3662052,10,10,8,1,9,1,1,7,Scaling,100
+25,School,1127359,3,1,9,6,7,9,5,5,Scaling,97
+19,Bachelor's Degree,455189,4,2,7,3,8,9,6,3,Early Revenue,92
+28,Diploma,3442277,14,5,10,8,7,8,10,1,Early Revenue,100
+39,Master's Degree,3737292,10,8,6,6,1,5,7,7,Early Revenue,97
+37,Master's Degree,2110178,12,4,6,2,8,2,4,3,Prototype,85
+20,Bachelor's Degree,620518,11,8,6,5,8,1,10,9,MVP,100
+45,Master's Degree,4749033,8,5,7,2,7,6,4,6,MVP,97
+20,Master's Degree,2667149,7,9,1,9,10,2,8,4,Prototype,100
+34,School,4768818,12,2,3,8,8,4,5,5,MVP,88
+32,Bachelor's Degree,2278055,2,3,5,1,2,1,3,8,MVP,73
+18,Master's Degree,4960159,13,5,8,3,7,3,9,5,MVP,100
+39,Bachelor's Degree,10251,14,10,7,4,7,6,2,8,Prototype,100
+28,Bachelor's Degree,261799,2,4,5,2,9,10,8,7,MVP,100
+42,Bachelor's Degree,2687460,18,8,7,1,6,7,6,6,Scaling,100
+50,PhD,264093,4,1,9,7,10,2,1,2,Early Revenue,88
+23,PhD,2118452,18,10,7,5,4,8,7,4,Early Revenue,100
+29,Bachelor's Degree,2443829,9,4,4,10,9,8,6,1,MVP,95
+50,School,2440007,9,6,1,8,9,2,5,4,Prototype,90
+33,School,1933772,16,10,2,1,3,5,6,9,MVP,95
+49,Master's Degree,952284,8,9,2,3,9,5,10,5,MVP,100
+40,Master's Degree,2187960,11,4,1,10,2,1,6,5,Early Revenue,76
+26,Bachelor's Degree,4876983,11,3,3,4,10,5,3,1,Idea,81
+21,Diploma,2137835,17,3,2,1,8,2,3,8,Prototype,83
+26,PhD,2634887,20,4,9,3,7,5,7,4,Early Revenue,98
+43,Diploma,2229735,15,2,4,6,7,5,9,8,Idea,97
+21,School,1096975,14,6,5,1,3,8,7,2,Scaling,83
+28,School,3656007,18,1,5,1,3,2,3,5,Scaling,69
+28,Master's Degree,1124837,5,1,5,4,7,2,10,4,Scaling,85
+29,PhD,2888599,16,8,6,8,3,7,1,6,Idea,97
+47,School,4256502,10,2,7,10,3,3,8,8,Prototype,96
+34,Diploma,1552032,16,4,9,1,7,9,8,8,MVP,100
+28,Bachelor's Degree,864912,14,9,7,10,10,9,3,5,Prototype,100
+32,Master's Degree,1772382,11,5,4,2,7,4,10,8,Scaling,99
+26,School,1362084,1,10,8,3,4,3,1,5,Prototype,92
+49,School,4793128,13,10,8,9,2,6,3,2,Early Revenue,97
+48,School,1273070,15,1,10,5,10,10,8,1,Scaling,100
+40,Master's Degree,3933598,14,3,5,9,6,4,9,3,MVP,91
+26,PhD,1405838,15,7,4,4,3,7,7,10,MVP,100
+37,Bachelor's Degree,1819886,18,6,8,9,9,4,6,3,Prototype,100
+50,Master's Degree,4459681,6,4,5,2,3,2,8,2,Scaling,75
+43,Master's Degree,2992371,6,5,3,3,3,9,6,10,MVP,95
+50,Bachelor's Degree,3472538,11,5,6,8,3,6,3,9,Idea,98
+22,Master's Degree,125897,3,10,6,7,4,5,7,5,Early Revenue,100
+31,Diploma,2112325,2,7,6,9,1,9,7,2,Idea,89
+34,PhD,4240692,4,8,10,10,8,1,6,6,Idea,100
+18,Master's Degree,1587078,14,4,10,9,7,9,1,9,Scaling,100
+36,Master's Degree,1504829,8,4,10,3,8,4,7,8,MVP,100
+41,PhD,3352712,11,5,5,3,10,4,4,5,Idea,96
+47,School,3205133,5,4,8,7,2,5,1,3,MVP,82
+26,School,3696976,10,2,9,4,2,4,10,8,Prototype,95
+41,Diploma,4299241,9,4,3,7,4,6,9,2,Prototype,83
+41,Diploma,253726,16,4,6,10,3,4,6,9,MVP,99
+21,PhD,3385002,3,4,5,8,10,5,7,9,Prototype,100
+38,Master's Degree,646933,4,2,6,9,10,8,1,9,MVP,100
+36,Diploma,1896379,18,8,8,5,9,6,7,2,MVP,100
+27,PhD,1825051,5,4,1,5,8,8,8,3,Scaling,88
+42,Bachelor's Degree,3509829,5,6,1,10,10,10,9,5,Prototype,100
+41,PhD,623510,8,9,10,3,9,9,4,6,MVP,100
+45,PhD,991470,19,9,6,9,3,9,6,1,Early Revenue,97
+39,School,2734186,20,9,4,1,6,5,2,8,MVP,97
+39,Master's Degree,4043459,11,7,6,7,9,1,5,10,Scaling,100
+40,Bachelor's Degree,1444850,11,1,7,8,1,10,10,10,Early Revenue,100
+45,Diploma,509797,5,2,2,9,2,5,9,9,Scaling,88
+23,PhD,3052486,6,10,1,8,1,6,6,8,MVP,95
+39,Master's Degree,4431119,14,7,1,7,2,6,3,2,Idea,75
+29,School,1631535,18,9,2,3,10,2,2,5,Prototype,94
+25,PhD,1647039,7,3,2,3,5,7,10,2,Scaling,79
+40,Diploma,563477,15,9,3,3,8,4,7,3,Idea,95
+33,Bachelor's Degree,3412506,6,10,6,10,3,1,8,10,MVP,100
+46,Master's Degree,406914,15,2,10,8,2,8,5,8,Scaling,100
+47,School,2431998,14,4,1,5,5,8,7,1,Early Revenue,77
+25,Bachelor's Degree,1287363,5,8,9,10,8,9,9,7,Idea,100
+33,Bachelor's Degree,4005743,12,3,5,2,1,6,5,4,MVP,74
+42,Bachelor's Degree,2270889,2,9,8,9,8,9,5,10,Prototype,100
+25,Bachelor's Degree,331207,10,8,10,2,6,8,9,7,Prototype,100
+34,Bachelor's Degree,3480157,1,10,9,5,1,6,8,9,Idea,100
+31,Diploma,804969,6,2,4,3,4,9,1,10,MVP,88
+50,PhD,3725546,1,4,9,10,4,2,5,10,MVP,100
+29,PhD,3471179,10,7,1,4,4,8,6,3,MVP,83
+41,PhD,1213296,16,8,9,2,5,10,4,8,Early Revenue,100
+33,PhD,4363511,8,3,6,3,3,9,4,6,Early Revenue,87
+30,Master's Degree,4533548,6,7,10,2,4,9,7,1,Idea,97
+47,Diploma,3648117,17,7,6,2,4,1,10,5,Scaling,92
+40,PhD,2408575,1,4,7,9,10,1,9,7,Scaling,100
+50,Master's Degree,4052121,16,1,7,9,10,10,9,5,Idea,100
+19,Bachelor's Degree,229294,6,5,10,1,9,10,6,9,MVP,100
+50,School,1862408,14,7,6,5,5,4,9,6,Prototype,100
+39,School,1387912,10,10,9,2,7,8,3,2,MVP,100
+35,School,1307393,10,5,10,2,1,5,1,9,Idea,93
+45,Diploma,3141450,12,10,3,7,10,7,7,2,Idea,100
+47,School,45804,9,6,6,10,7,9,9,8,MVP,100
+28,Bachelor's Degree,198052,20,2,4,10,9,8,2,8,Early Revenue,100
+48,Diploma,4227593,6,6,8,4,5,10,7,6,Idea,100
+40,School,1894882,3,8,5,5,8,5,10,6,Prototype,100
+34,Diploma,3428504,16,2,6,2,10,9,1,9,Idea,100
+41,PhD,2140365,4,7,3,3,7,4,9,7,Scaling,98
+18,Diploma,1785554,13,9,3,6,8,10,5,9,Early Revenue,100
+49,Diploma,2966434,1,4,4,5,1,6,4,3,Prototype,70
+48,School,4182965,6,5,3,1,6,3,7,4,Scaling,82
+48,School,4159107,5,3,2,4,2,3,3,8,Idea,75
+23,Bachelor's Degree,4720965,3,2,9,5,3,4,5,2,Scaling,79
+25,PhD,3176635,4,9,3,4,9,3,5,8,Prototype,100
+39,PhD,2637486,3,2,9,9,2,9,6,3,Prototype,89
+47,Bachelor's Degree,3300763,12,6,1,3,7,7,5,8,Early Revenue,94
+45,School,343685,20,7,1,8,3,8,10,1,Early Revenue,85
+36,Diploma,3230058,13,10,9,10,2,7,9,1,Early Revenue,100
+36,School,1861192,5,7,5,9,1,9,2,7,Idea,95
+36,PhD,2333380,5,1,1,8,9,1,9,4,Early Revenue,83
+44,School,2010589,11,9,7,5,5,3,7,5,Early Revenue,100
+26,School,650473,16,7,8,9,10,7,9,2,MVP,100
+36,Diploma,694566,6,9,6,8,2,9,9,1,Idea,97
+39,Master's Degree,1117695,5,10,4,9,7,10,3,1,Scaling,100
+19,Bachelor's Degree,766236,9,2,9,7,1,3,2,6,Idea,83
+26,Bachelor's Degree,285506,5,6,7,7,5,6,4,1,Idea,90
+25,Master's Degree,4375587,20,4,7,10,8,1,5,3,Scaling,95
+28,Master's Degree,952608,8,8,10,5,5,5,7,8,Idea,100
+28,School,4355354,14,1,3,8,1,1,8,10,Early Revenue,82
+46,Master's Degree,980946,16,5,1,4,5,3,3,5,MVP,77
+26,PhD,4485115,1,8,7,8,3,7,4,4,Prototype,94
+19,Diploma,4743086,14,4,7,10,9,5,7,7,Scaling,100
+26,School,179867,10,9,1,6,10,6,3,7,Prototype,100
+41,Diploma,728452,5,7,8,8,10,5,10,10,Idea,100
+22,Diploma,783042,7,4,9,6,3,10,9,1,Scaling,94
+37,Master's Degree,4926800,13,1,5,1,7,6,9,1,Prototype,79
+42,School,226302,6,10,7,10,3,5,8,9,Scaling,100
+43,Master's Degree,593856,6,9,2,5,3,8,7,10,Idea,100
+22,Bachelor's Degree,4142924,14,3,3,3,7,9,1,1,Early Revenue,76
+22,Diploma,4100798,5,1,3,1,4,5,2,6,MVP,71
+27,Diploma,3049845,16,3,8,6,3,10,7,1,Scaling,88
+48,Bachelor's Degree,2155674,12,4,8,10,1,10,8,1,Idea,91
+43,Diploma,3841893,7,7,4,4,9,10,7,10,Early Revenue,100
+43,Bachelor's Degree,2523547,20,6,10,8,6,9,2,3,Scaling,100
+40,Master's Degree,2398615,2,8,9,2,9,9,10,6,Idea,100
+23,Master's Degree,4247704,12,7,2,9,9,5,1,5,Idea,96
+46,PhD,3674754,3,5,9,9,1,1,1,8,MVP,90
+33,School,2781739,6,4,2,3,5,6,1,2,Idea,71
+41,School,4233545,12,8,9,6,2,4,5,4,Prototype,96
+32,Bachelor's Degree,3889423,19,6,4,7,8,9,8,4,Prototype,100
+42,Diploma,3871413,10,10,9,3,4,4,1,1,Early Revenue,91
+32,PhD,2973749,7,1,3,6,10,6,2,6,Scaling,89
+34,Bachelor's Degree,4417870,17,10,3,9,10,2,9,10,Early Revenue,100
+47,Bachelor's Degree,3684266,14,8,4,9,10,6,5,2,Scaling,100
+25,Master's Degree,655420,6,6,3,9,10,5,6,9,Early Revenue,100
+26,School,4845396,3,1,3,3,3,2,10,7,Early Revenue,76
+44,School,3192346,7,10,1,6,3,5,2,10,MVP,96
+20,School,3612226,8,3,7,7,2,2,8,10,Scaling,96
+34,Master's Degree,3376467,10,6,1,2,7,8,2,1,Scaling,77
+32,Diploma,3603904,18,9,7,3,8,9,8,4,Scaling,100
+48,Diploma,428881,7,8,3,4,1,9,6,7,Prototype,92
+32,Diploma,1494719,20,1,6,6,9,1,5,4,Early Revenue,87
+29,Diploma,976952,3,4,3,5,9,6,9,4,Early Revenue,93
+27,Master's Degree,249398,2,2,2,8,4,6,4,5,Early Revenue,76
+26,PhD,4823364,11,1,3,10,3,6,7,1,Early Revenue,74
+33,Bachelor's Degree,1177347,2,2,5,5,3,4,6,10,Early Revenue,87
+30,Bachelor's Degree,2821517,18,8,10,3,8,5,2,8,MVP,100
+49,Master's Degree,3825609,13,3,2,5,5,1,9,9,MVP,88
+21,School,3278394,13,9,3,5,10,1,10,3,MVP,100
+46,Master's Degree,109428,1,3,8,9,1,7,4,9,Early Revenue,93
+41,Master's Degree,473901,3,9,4,8,10,3,9,4,Prototype,100
+35,Bachelor's Degree,3656993,5,9,5,8,4,8,10,10,Idea,100
+21,Diploma,2932271,16,1,1,3,8,6,8,3,Scaling,78
+20,Master's Degree,4492902,3,2,2,5,5,8,8,4,Prototype,80
+43,Master's Degree,1751100,1,9,6,8,7,9,5,3,Scaling,100
+40,Diploma,546976,10,10,8,9,9,7,2,8,Early Revenue,100
+34,School,3197930,20,8,5,5,2,7,9,7,MVP,100
+20,PhD,831890,4,7,1,6,5,3,3,4,Early Revenue,80
+30,Diploma,676299,9,2,6,6,7,10,3,3,Prototype,90
+29,Bachelor's Degree,4166782,7,3,9,10,9,7,7,6,Scaling,100
+50,PhD,2585391,4,1,3,9,5,1,9,2,Scaling,75
+46,Diploma,2041490,12,5,6,1,2,8,8,5,Early Revenue,88
+49,Diploma,2311247,12,1,6,7,1,5,1,4,Scaling,72
+19,Bachelor's Degree,1726054,4,4,3,6,5,2,2,7,Scaling,82
+26,School,2496199,1,10,1,7,6,7,1,8,MVP,96
+25,Master's Degree,4525570,15,9,8,6,5,7,8,2,Early Revenue,100
+47,School,3720120,14,8,10,4,5,10,4,5,Scaling,100
+49,PhD,2362433,7,10,3,3,7,4,3,2,Idea,89
+20,School,4565155,19,1,4,1,3,10,4,5,Idea,76
+31,Bachelor's Degree,2035214,18,5,1,6,1,8,2,6,MVP,77
+37,Diploma,2227749,18,5,7,1,10,3,9,3,Prototype,98
+25,Bachelor's Degree,2758348,15,7,5,3,3,1,1,4,MVP,78
+20,Diploma,3929050,17,9,8,8,8,3,3,5,Prototype,100
+34,PhD,3514285,1,4,7,10,4,8,5,7,Idea,98
+36,Bachelor's Degree,4630771,8,6,4,1,10,8,9,6,Scaling,100
+36,School,472350,20,6,3,4,5,10,2,9,Prototype,97
+35,PhD,4929763,19,2,4,3,1,4,4,7,MVP,74
+41,Bachelor's Degree,3978111,8,10,4,5,7,1,6,2,Scaling,93
+33,Bachelor's Degree,2766918,1,6,1,6,2,2,3,7,Scaling,74
+31,Bachelor's Degree,767575,20,3,10,8,6,5,9,10,Prototype,100
+35,Diploma,2015034,15,10,7,2,1,7,2,8,Prototype,98
+25,Bachelor's Degree,4310124,7,5,9,9,1,8,10,3,MVP,98
+40,School,4840518,18,2,6,7,8,1,4,1,MVP,81
+26,PhD,4627664,12,7,4,4,5,4,8,1,Scaling,85
+21,Master's Degree,681065,18,5,5,5,8,1,6,8,Idea,99
+43,Master's Degree,1357001,19,7,4,8,6,2,8,2,Idea,91
+20,Bachelor's Degree,661741,8,1,6,8,3,1,1,2,Idea,69
+19,Bachelor's Degree,2902006,2,4,8,2,2,6,1,7,Idea,83
+47,PhD,1161867,11,7,7,5,5,9,6,4,Idea,100
+27,Diploma,786762,5,9,5,6,5,3,5,10,MVP,100
+33,Bachelor's Degree,2294350,16,2,3,9,10,1,5,3,Prototype,86
+50,School,2161251,2,5,1,3,7,8,2,1,Early Revenue,73
+21,Diploma,4037108,16,1,5,9,1,1,7,1,Idea,68
+34,Master's Degree,1805418,4,6,2,6,7,4,9,4,Scaling,91
+50,School,1176682,12,2,7,7,10,8,5,3,Early Revenue,99
+44,Master's Degree,1694218,14,5,6,2,3,2,1,1,MVP,70
+26,Bachelor's Degree,3148243,16,6,9,10,4,3,7,3,Scaling,99
+35,Bachelor's Degree,3193469,11,4,2,3,5,1,8,6,MVP,81
+39,Bachelor's Degree,2795502,14,8,10,7,4,7,10,9,Scaling,100
+34,School,1783634,8,5,10,4,1,1,10,10,MVP,100
+19,Bachelor's Degree,1794055,18,3,8,7,3,3,7,4,MVP,88
+42,Master's Degree,2118972,10,8,1,1,9,9,8,7,Idea,100
+39,Master's Degree,3802495,11,5,2,2,1,10,1,6,Idea,76
+49,PhD,1904969,20,10,3,1,8,10,3,1,Prototype,93
+43,PhD,4945728,9,9,5,1,6,6,7,1,Early Revenue,91
+49,School,2916541,13,9,10,7,9,8,2,10,Scaling,100
+38,Bachelor's Degree,2813079,6,4,1,3,9,8,9,9,Scaling,100
+29,Diploma,3499683,15,4,6,9,6,2,3,5,Idea,91
+37,Master's Degree,1924164,7,1,6,7,3,1,6,3,Prototype,75
+25,Diploma,2768045,6,10,9,7,6,7,1,7,Scaling,100
+43,Master's Degree,4787714,2,2,6,4,2,1,1,9,Prototype,76
+42,Diploma,4870424,13,7,1,6,5,9,7,4,Prototype,91
+39,School,837641,13,10,5,1,8,1,8,4,MVP,99
+44,Bachelor's Degree,3880696,2,10,3,1,10,6,2,5,Early Revenue,97
+27,School,392556,11,10,3,5,2,1,9,10,Scaling,100
+23,Master's Degree,1748394,5,8,1,10,8,8,2,9,Scaling,100
+43,Diploma,1911083,15,6,1,8,10,6,2,8,Scaling,100
+44,Master's Degree,176540,15,6,8,2,7,5,6,2,Early Revenue,94
+19,Diploma,2328390,7,4,4,3,3,1,3,1,Idea,66
+47,Diploma,856671,5,7,8,1,9,8,8,8,Early Revenue,100
+28,PhD,1533411,7,1,5,5,7,3,9,4,Idea,86
+29,PhD,521830,1,2,6,2,3,5,4,1,Scaling,66
+40,PhD,433311,19,10,3,5,10,5,5,6,Prototype,100
+31,School,2253631,4,3,9,1,6,10,10,3,MVP,97
+46,PhD,3872305,7,9,6,10,9,9,1,8,Idea,100
+28,PhD,2984922,2,7,9,8,7,2,2,5,MVP,100
+39,School,2924951,12,7,5,6,3,4,6,3,Scaling,87
+18,Diploma,3965198,18,1,10,3,4,10,6,10,Early Revenue,100
+48,Diploma,3149573,3,6,3,1,7,9,6,9,Prototype,99
+40,Diploma,118508,4,7,5,1,8,2,7,8,Scaling,100
+30,Bachelor's Degree,558067,6,7,8,7,9,6,1,1,Idea,99
+22,Bachelor's Degree,2156637,3,10,9,5,8,3,8,10,Scaling,100
+34,School,1532003,13,6,1,3,10,1,6,6,MVP,91
+31,Diploma,1213269,8,9,9,7,2,3,5,9,Early Revenue,100
+18,Bachelor's Degree,65332,13,4,3,6,8,6,6,3,Idea,89
+23,Bachelor's Degree,2718517,20,5,9,7,1,4,2,7,Prototype,92
+19,Bachelor's Degree,2333570,4,6,8,6,3,6,3,3,Prototype,89
+45,School,1483940,18,1,10,6,2,7,4,3,Prototype,84
+47,PhD,2120317,3,6,6,2,1,6,1,7,Idea,82
+48,Bachelor's Degree,192512,16,3,2,1,8,8,6,8,Prototype,92
+48,Bachelor's Degree,4173905,10,8,1,1,3,2,5,2,Prototype,71
+18,Diploma,4514920,4,10,8,9,7,8,1,1,Idea,100
+22,Bachelor's Degree,3459254,17,7,1,10,1,9,7,9,Idea,97
+46,Diploma,1257673,11,9,5,10,6,9,7,1,MVP,100
+31,Diploma,629897,2,10,10,9,1,8,4,2,Prototype,99
+33,Bachelor's Degree,1535550,12,1,7,5,1,2,2,9,Scaling,80
+37,Diploma,614884,12,7,8,7,7,4,8,4,MVP,100
+27,Diploma,3328330,12,5,3,6,6,8,4,10,Prototype,100
+18,Diploma,1337989,2,2,4,3,3,7,4,4,Idea,72
+26,School,3455733,2,1,7,5,5,9,7,3,Early Revenue,85
+42,PhD,1018413,19,2,1,2,8,1,6,6,Early Revenue,78
+28,Diploma,3283403,9,2,7,1,8,9,10,5,MVP,99
+33,PhD,4302949,15,6,8,7,2,3,6,10,Idea,100
+42,Bachelor's Degree,1856229,7,9,6,1,10,5,4,8,Prototype,100
+32,PhD,1642189,20,5,7,7,5,10,6,9,Early Revenue,100
+23,Bachelor's Degree,1834134,15,2,1,5,2,3,1,2,Early Revenue,58
+22,Diploma,810943,18,6,8,6,3,7,1,6,Early Revenue,95
+34,School,4084250,10,10,1,4,4,8,6,1,MVP,85
+21,Master's Degree,1199699,5,10,9,5,3,2,5,4,MVP,99
+20,School,1022354,17,5,10,10,2,10,7,10,MVP,100
+18,Diploma,1269737,4,5,3,4,3,7,4,4,Early Revenue,79
+42,Diploma,3185880,13,8,7,5,8,2,8,10,MVP,100
+33,Diploma,1597227,19,8,2,5,10,7,4,7,Scaling,100
+26,Master's Degree,1543176,20,7,5,2,8,9,10,7,Prototype,100
+47,Diploma,419725,7,2,7,4,3,10,5,7,Prototype,92
+24,School,493657,14,2,3,10,2,2,9,8,Scaling,86
+18,Master's Degree,435735,19,2,1,8,3,6,8,10,Early Revenue,89
+47,PhD,3656725,15,3,6,8,7,4,9,6,Prototype,100
+35,School,349377,19,2,7,8,6,10,8,3,Early Revenue,97
+37,School,1915012,1,9,9,3,3,3,5,1,Prototype,86
+42,Bachelor's Degree,4335683,7,1,10,6,2,5,9,4,MVP,89
+40,PhD,698856,10,2,5,7,3,6,9,7,Scaling,91
+43,Master's Degree,2086549,14,3,2,1,8,8,3,5,Idea,83
+40,School,3963485,10,8,7,2,5,2,5,4,Scaling,92
+33,Master's Degree,582601,6,2,7,5,7,6,8,4,Idea,94
+27,PhD,1508577,8,6,7,2,5,8,3,1,Idea,86
+20,School,1602965,12,2,4,3,5,4,8,8,Prototype,88
+43,PhD,1457122,18,6,9,9,10,7,7,8,MVP,100
+33,School,4543546,9,8,3,8,7,5,3,9,Scaling,100
+32,Bachelor's Degree,1736672,13,9,10,1,10,3,3,3,Early Revenue,100
+35,School,2691356,3,9,2,1,8,4,9,6,Prototype,97
+25,Bachelor's Degree,4115384,10,7,9,7,7,7,8,10,Prototype,100
+43,Diploma,4751126,20,2,3,10,9,4,6,7,Early Revenue,97
+40,Bachelor's Degree,2362218,16,1,10,9,8,8,3,6,Idea,100
+29,Bachelor's Degree,3894705,2,1,5,9,6,10,5,5,Scaling,90
+19,Diploma,2185778,19,4,10,5,8,10,9,7,Early Revenue,100
+23,Bachelor's Degree,1372660,6,3,5,9,2,6,7,4,Idea,85
+25,School,3612036,1,9,7,2,10,3,6,3,Early Revenue,100
+49,School,4535527,2,2,6,5,3,7,7,2,Early Revenue,77
+42,Diploma,2566437,10,9,2,8,5,4,5,4,Scaling,92
+50,Diploma,1439952,7,1,2,9,2,10,5,8,Scaling,85
+40,Master's Degree,4002845,3,2,5,9,5,5,10,9,Scaling,99
+47,Diploma,958087,11,5,9,9,1,7,2,2,Early Revenue,87
+19,School,4704255,18,10,8,9,3,5,1,6,MVP,100
+50,Master's Degree,3991113,4,9,10,7,10,7,3,10,Idea,100
+22,School,581747,13,7,5,1,4,7,10,2,Prototype,89
+32,School,633845,6,6,10,10,9,6,7,9,Idea,100
+43,PhD,553691,1,8,9,2,4,5,7,10,MVP,100
+21,Master's Degree,47019,11,1,5,3,7,6,10,1,Idea,82
+26,School,56055,16,3,7,10,5,4,1,9,Early Revenue,98
+18,PhD,1052800,17,10,10,4,5,7,10,3,MVP,100
+28,School,2788409,4,10,6,8,6,7,2,3,MVP,100
+20,Bachelor's Degree,2960438,2,1,6,4,6,1,5,10,Prototype,88
+45,PhD,4614901,16,4,10,7,3,2,4,6,MVP,94
+38,Master's Degree,4518071,15,5,2,2,5,9,10,4,Idea,88
+32,PhD,3622419,3,6,2,8,9,6,2,3,Early Revenue,89
+47,Bachelor's Degree,3515374,12,10,9,7,9,1,5,10,Early Revenue,100
+31,School,4215766,7,5,5,2,5,8,5,7,MVP,94
+50,Master's Degree,1559057,10,2,4,7,8,9,2,6,Scaling,93
+42,PhD,1959574,9,2,5,8,7,6,6,5,Idea,93
+35,Diploma,2303182,15,6,4,6,10,9,7,1,Idea,99
+32,Diploma,111929,6,6,10,5,9,5,6,7,Early Revenue,100
+40,Diploma,3147905,13,7,4,7,10,9,8,10,Idea,100
+48,School,3444366,14,3,3,10,8,10,8,8,MVP,100
+32,Bachelor's Degree,2070661,19,8,9,3,10,4,3,6,Idea,100
+40,Bachelor's Degree,1470772,1,2,9,9,2,5,1,5,Idea,82
+22,School,2095810,19,1,8,9,1,7,1,4,Prototype,80
+21,Bachelor's Degree,642883,12,7,9,1,7,9,4,2,Scaling,99
+22,Diploma,1216422,2,5,2,7,4,5,2,1,Early Revenue,70
+20,Diploma,4665259,15,1,7,9,9,10,1,4,Idea,97
+43,Master's Degree,3363673,18,7,5,2,4,3,3,7,Scaling,89
+36,School,3904752,11,1,5,10,2,10,6,10,Idea,97
+45,Master's Degree,1177637,7,5,5,3,2,5,6,4,Prototype,81
+28,Diploma,1507272,12,7,6,5,9,1,3,6,MVP,100
+27,Diploma,4830252,14,7,8,4,2,3,8,4,Prototype,92
+26,Master's Degree,578749,1,8,1,8,9,3,9,7,Scaling,100
+24,Bachelor's Degree,3355452,9,9,9,5,5,4,1,4,Early Revenue,99
+38,Bachelor's Degree,4279802,19,3,1,4,4,2,4,8,Prototype,77
+31,Master's Degree,2709652,2,1,5,1,3,10,4,10,Scaling,85
+48,PhD,2497662,14,4,9,8,7,10,1,6,Prototype,100
+45,PhD,1024746,5,5,9,2,8,4,6,4,MVP,99
+36,School,4824761,20,4,6,9,1,5,2,4,Prototype,81
+41,PhD,1399402,9,6,6,7,7,5,10,2,Prototype,99
+23,Bachelor's Degree,620460,14,3,4,5,2,6,3,8,MVP,83
+41,Diploma,1757908,14,4,6,1,6,6,10,9,Scaling,100
+40,PhD,1232322,11,3,3,1,2,8,1,7,MVP,75
+29,Bachelor's Degree,1344582,1,5,9,4,5,3,6,2,Early Revenue,86
+45,Bachelor's Degree,862774,1,8,2,1,3,2,2,8,Scaling,78
+39,Diploma,471715,5,8,7,9,10,3,3,2,Early Revenue,100
+18,Diploma,4397861,20,8,6,7,10,3,8,9,Scaling,100
+42,Bachelor's Degree,528675,5,9,10,8,5,8,2,10,Early Revenue,100
+22,Diploma,1485656,19,3,9,10,9,6,2,9,Prototype,100
+28,PhD,2977438,17,4,3,8,1,6,6,6,Scaling,83
+49,Diploma,1500399,16,2,6,5,4,3,6,6,Prototype,85
+18,PhD,1417365,6,2,1,7,1,3,10,10,Idea,83
+47,Diploma,2428497,6,8,1,5,8,2,4,2,Idea,84
+37,Bachelor's Degree,1150097,13,4,7,1,4,10,5,1,Scaling,83
+43,Diploma,1117555,6,5,8,7,1,3,7,4,Prototype,88
+34,Master's Degree,2094724,17,4,3,5,8,4,5,10,Early Revenue,99
+20,Bachelor's Degree,754920,6,8,8,5,6,6,1,3,Idea,97
+25,Bachelor's Degree,900895,14,1,4,8,7,5,3,4,Idea,83
+47,Bachelor's Degree,2249970,16,4,8,7,10,9,1,9,Idea,100
+49,PhD,3345104,15,7,8,4,10,10,9,2,Idea,100
+20,School,1979669,19,3,1,2,4,9,10,7,Idea,86
+50,Master's Degree,1087578,15,2,10,8,5,9,10,8,Idea,100
+33,Bachelor's Degree,2961462,1,9,3,4,5,4,8,9,Prototype,99
+46,Master's Degree,438975,11,6,10,4,3,5,5,8,MVP,100
+32,PhD,253879,14,10,5,2,5,8,7,9,Idea,100
+29,PhD,3801117,18,6,9,6,2,10,7,5,Idea,100
+34,School,4552754,7,1,2,8,10,8,2,5,Prototype,89
+48,Master's Degree,2758095,3,7,4,10,3,5,1,6,Prototype,89
+47,Diploma,3619428,7,3,1,1,1,5,7,1,Early Revenue,60
+35,Diploma,1128546,5,9,9,5,9,6,10,10,Prototype,100
+50,Master's Degree,4523728,13,4,2,3,9,10,4,4,MVP,90
+31,School,2514837,10,10,5,2,10,8,6,2,Scaling,100
+28,PhD,4219798,14,5,7,7,3,3,6,3,Prototype,87
+26,PhD,1934609,4,1,2,5,2,5,3,2,Idea,61
+37,PhD,4013776,14,8,10,8,7,4,6,6,Early Revenue,100
+40,Diploma,663464,9,5,6,10,5,5,1,3,MVP,89
+32,PhD,2797099,15,5,2,7,10,7,7,10,Scaling,100
+32,Bachelor's Degree,376208,14,5,4,7,2,5,10,10,MVP,99
+31,Diploma,4568618,2,2,1,2,6,3,6,6,Early Revenue,73
+22,Diploma,1838870,15,9,5,4,8,5,8,7,Idea,100
+43,School,1438850,18,6,9,1,3,6,3,5,MVP,91
+50,Master's Degree,2657309,1,9,8,5,7,3,10,1,Early Revenue,99
+30,PhD,1832608,14,4,3,6,6,10,3,10,Early Revenue,100
+42,School,496603,9,1,5,10,5,8,7,1,Idea,84
+29,PhD,3527597,15,2,9,1,8,9,9,6,Prototype,100
+39,School,410116,17,2,2,1,3,4,1,1,Early Revenue,57
+39,Diploma,4847731,15,8,10,6,10,10,7,3,Early Revenue,100
+21,PhD,1710960,13,9,9,6,2,10,3,2,Prototype,98
+49,Bachelor's Degree,4335075,13,7,5,2,10,9,1,10,Idea,100
+49,Master's Degree,1379670,8,10,5,8,5,7,1,5,Scaling,100
+25,Diploma,3952768,12,7,6,3,6,7,10,3,Idea,99
+46,Bachelor's Degree,4857873,15,5,10,6,7,6,9,4,Scaling,100
+21,Bachelor's Degree,3164367,4,2,3,5,7,4,1,3,Early Revenue,74
+42,PhD,2628340,9,2,10,7,1,7,2,2,MVP,81
+50,Bachelor's Degree,750176,10,8,8,8,8,9,5,8,Prototype,100
+38,Diploma,2677521,17,3,4,10,1,9,4,2,Early Revenue,78
+21,School,4091989,17,3,3,10,1,9,6,8,Idea,90
+22,Diploma,391430,12,5,6,1,10,2,3,6,Prototype,95
+28,PhD,3730019,6,10,9,4,2,10,5,9,Idea,100
+44,PhD,2449688,16,4,9,3,1,8,5,8,Idea,95
+50,Bachelor's Degree,1502402,13,3,6,5,3,2,3,7,Early Revenue,83
+35,PhD,2766009,1,6,9,9,7,6,10,9,Idea,100
+28,Master's Degree,716868,5,3,5,6,3,8,3,10,Scaling,94
+48,School,532199,16,6,3,9,1,1,4,7,Scaling,83
+43,Diploma,4849838,5,2,6,7,5,7,10,8,Early Revenue,100
+50,School,525309,16,5,6,2,10,4,3,4,Idea,94
+20,Bachelor's Degree,4947860,14,8,6,9,10,3,5,2,Scaling,100
+23,Master's Degree,4166676,2,7,9,10,8,10,5,5,Prototype,100
+42,PhD,4858450,15,10,5,10,3,1,3,7,Prototype,99
+45,PhD,2648423,7,4,3,4,8,4,5,7,Early Revenue,92
+33,Master's Degree,4857793,1,10,2,6,4,5,7,9,Prototype,99
+42,Bachelor's Degree,4486713,11,4,9,8,5,10,9,7,Early Revenue,100
+34,PhD,4091114,20,5,10,2,5,5,4,6,MVP,98
+24,Bachelor's Degree,3952645,5,9,8,9,7,1,2,9,Prototype,100
+22,Diploma,376584,18,8,3,10,10,10,9,3,Prototype,100
+39,Diploma,1032798,18,6,9,10,4,1,8,4,Early Revenue,100
+33,School,4160156,18,9,5,4,4,8,9,8,Idea,100
+25,School,3202228,11,3,7,10,2,4,9,4,Idea,90
+37,Diploma,4336150,16,1,7,5,9,9,7,10,Prototype,100
+26,Diploma,2964176,11,1,2,9,2,7,4,1,Prototype,67
+40,School,1022061,2,9,9,5,7,9,6,3,MVP,100
+39,School,1484187,9,7,6,5,9,2,1,10,Idea,100
+45,PhD,2904703,3,6,8,1,10,6,4,5,Early Revenue,100
+45,School,237237,8,7,6,8,6,3,7,3,Idea,97
+29,Diploma,2366285,8,5,1,3,6,8,6,5,Early Revenue,86
+27,Master's Degree,1424837,8,2,8,2,3,2,9,8,Scaling,90
+31,Bachelor's Degree,4818727,20,5,10,10,9,4,3,10,Scaling,100
+33,PhD,415860,11,3,5,9,1,4,7,4,Idea,81
+50,School,2198183,19,1,8,4,4,9,7,6,MVP,93
+22,Bachelor's Degree,2050384,14,5,2,4,9,7,3,5,Early Revenue,91
+18,PhD,1028072,14,9,4,1,4,1,5,4,Scaling,84
+50,PhD,4042086,18,1,10,7,6,7,8,7,Idea,100
+21,Diploma,1952470,16,4,10,2,5,1,6,6,Early Revenue,94
+33,Bachelor's Degree,48842,2,4,1,7,6,1,1,6,Prototype,75
+50,PhD,3387360,9,3,4,4,5,8,7,7,Early Revenue,92
+34,Diploma,2778690,1,4,8,8,6,2,7,8,Early Revenue,100
+41,School,3505649,18,9,1,10,6,4,9,3,MVP,96
+20,Master's Degree,4490094,12,2,8,6,6,7,7,8,Scaling,100
+22,Master's Degree,1027184,11,10,5,5,9,5,9,5,Early Revenue,100
+37,Diploma,869288,8,5,2,9,5,2,8,5,MVP,88
+40,PhD,1089377,1,3,7,7,1,8,6,9,Idea,92
+44,Diploma,1726738,10,5,1,6,10,1,10,6,Scaling,96
+39,Diploma,3048652,4,8,8,6,6,8,8,6,MVP,100
+19,School,271157,20,1,5,10,7,1,5,5,Prototype,87
+34,Diploma,3911742,16,9,6,5,8,6,5,1,MVP,99
+45,Master's Degree,691668,10,4,8,6,3,2,4,9,MVP,95
+21,Master's Degree,3319168,16,4,6,10,9,10,8,6,Prototype,100
+28,Diploma,4855116,14,7,8,9,10,5,5,4,Early Revenue,100
+20,School,1315471,7,5,4,4,2,10,3,5,Early Revenue,84
+49,PhD,1997306,19,8,9,3,1,4,2,7,Prototype,94
+33,School,3845270,11,8,9,4,9,1,8,1,Prototype,100
+32,Bachelor's Degree,4021112,12,4,2,2,7,6,1,10,Early Revenue,90
+18,Diploma,4551565,12,7,7,2,9,2,2,10,Scaling,100
+36,Bachelor's Degree,2045371,4,4,3,1,1,9,10,1,MVP,72
+39,PhD,2572768,6,7,6,9,2,5,8,6,MVP,99
+48,School,2707795,7,2,9,5,2,7,6,8,Early Revenue,95
+49,Diploma,4342207,16,4,1,3,9,10,9,7,MVP,99
+25,Bachelor's Degree,2539937,10,6,9,9,3,10,8,7,Scaling,100
+31,Master's Degree,1651428,20,2,3,2,10,1,9,7,MVP,91
+27,Master's Degree,3794769,12,4,2,2,1,2,3,3,MVP,62
+48,School,2843613,16,8,2,9,7,4,2,7,Scaling,98
+38,School,4588390,15,2,1,5,8,7,2,7,MVP,85
+40,Master's Degree,3405769,7,3,7,10,6,9,4,1,Prototype,92
+19,Master's Degree,953083,11,2,8,1,6,4,3,2,Prototype,79
+34,School,3214763,10,3,10,8,9,9,8,7,Idea,100
+38,PhD,477848,18,9,6,8,10,7,5,1,Scaling,100
+22,PhD,982381,16,1,6,6,4,10,6,4,Early Revenue,87
+34,Bachelor's Degree,431247,16,1,7,4,7,6,2,7,Early Revenue,91
+21,PhD,2057687,1,2,9,1,4,10,3,2,MVP,79
+44,PhD,1896610,14,1,3,10,7,8,7,3,MVP,88
+36,PhD,4848410,5,3,5,5,7,5,8,8,MVP,99
+40,Bachelor's Degree,876771,10,5,1,2,10,5,9,10,Early Revenue,100
+31,Master's Degree,1840758,9,9,9,6,3,6,1,3,Idea,96
+25,Diploma,335209,8,8,7,2,5,4,3,3,Idea,90
+31,PhD,2577077,18,4,6,1,8,6,6,8,MVP,100
+46,PhD,3407178,16,5,7,4,2,6,5,3,Prototype,84
+41,PhD,4254500,11,6,8,7,2,3,7,2,MVP,88
+41,School,2647543,12,7,9,8,5,5,9,8,Scaling,100
+48,School,2487606,19,7,8,2,2,1,8,5,Prototype,90
+34,Diploma,340753,1,7,5,7,9,10,10,6,Prototype,100
+22,Bachelor's Degree,748490,6,9,5,6,4,7,2,5,Scaling,96
+38,Master's Degree,2628754,16,3,3,1,2,9,10,9,Prototype,89
+24,Diploma,1150215,20,2,10,6,8,1,3,6,Prototype,97
+49,Bachelor's Degree,462940,10,2,8,9,5,2,6,6,Prototype,94
+50,Bachelor's Degree,1956887,11,5,2,6,3,5,3,5,Scaling,79
+46,Master's Degree,2086387,20,8,9,5,5,7,9,1,MVP,100
+41,PhD,3293756,20,10,10,6,8,9,8,10,Early Revenue,100
+25,Bachelor's Degree,3442319,3,3,2,4,6,8,5,10,Early Revenue,92
+35,Diploma,819024,14,2,10,5,1,1,2,9,Prototype,87
+45,School,78837,3,2,6,5,3,8,6,7,MVP,88
+37,PhD,920389,3,8,6,9,7,1,7,5,Prototype,100
+24,PhD,1256114,15,2,3,3,2,2,4,8,Idea,74
+43,PhD,4936795,11,7,9,1,7,1,6,5,MVP,99
+41,Master's Degree,1658324,18,3,4,1,4,8,2,7,Scaling,82
+27,Bachelor's Degree,243496,4,5,2,8,3,8,10,1,Prototype,82
+21,Bachelor's Degree,941964,13,2,8,6,2,8,5,9,Idea,96
+39,Master's Degree,3959270,4,4,7,7,4,2,9,2,Early Revenue,86
+18,Bachelor's Degree,1639591,8,2,6,10,2,2,1,4,Scaling,76
+36,Bachelor's Degree,317481,5,4,6,6,4,1,4,1,Idea,76
+21,Master's Degree,3782909,12,2,6,4,7,4,8,3,Prototype,87
+24,Diploma,351114,9,3,4,4,6,3,9,5,Scaling,87
+47,PhD,2177701,16,10,9,3,1,7,5,3,Early Revenue,96
+31,School,1641872,3,7,2,6,5,10,9,9,Scaling,100
+32,Master's Degree,556774,14,6,7,1,7,10,2,3,Idea,94
+40,School,3594062,20,10,4,8,9,10,1,5,Early Revenue,100
+44,Diploma,1977675,20,7,2,7,2,8,9,7,MVP,95
+27,Master's Degree,3692651,3,4,5,6,8,5,5,9,MVP,100
+32,Bachelor's Degree,2396989,3,5,9,2,9,8,10,7,Early Revenue,100
+22,PhD,3356659,11,10,8,4,1,6,3,2,MVP,90
+41,Bachelor's Degree,1809149,1,1,8,5,5,4,7,10,Prototype,95
+44,Bachelor's Degree,2986385,11,4,2,7,1,3,1,1,Scaling,62
+35,Master's Degree,3056867,12,9,6,4,5,2,2,9,Early Revenue,100
+30,School,2187642,2,3,8,9,5,2,2,2,Early Revenue,81
+47,PhD,2984646,13,9,3,10,4,6,1,10,Early Revenue,100
+21,Diploma,3764318,15,3,10,3,6,8,6,8,Idea,100
+48,Diploma,2999015,14,1,10,6,4,2,9,3,Prototype,88
+34,School,946686,7,8,4,5,8,3,4,1,MVP,89
+28,School,2969358,2,3,1,7,3,2,1,7,Idea,70
+35,Master's Degree,2286517,4,10,1,7,5,7,10,7,Idea,100
+40,School,3773851,18,5,9,7,1,3,2,7,Idea,91
+40,School,4144063,2,3,10,10,4,6,2,9,Scaling,100
+35,Bachelor's Degree,2068583,19,6,8,8,2,9,5,2,Prototype,93
+22,Master's Degree,1060700,7,1,8,8,5,4,9,1,Idea,86
+48,PhD,4451463,18,6,8,10,6,8,3,3,Idea,100
+28,Master's Degree,350752,13,9,10,2,9,10,7,4,Scaling,100
+22,Master's Degree,1807984,9,8,10,3,8,10,5,2,Scaling,100
+38,Diploma,1393927,7,5,6,5,6,3,7,9,Scaling,100
+40,Bachelor's Degree,2683554,2,5,10,8,7,8,2,10,MVP,100
+34,PhD,4300769,19,9,9,8,2,7,2,1,MVP,94
+29,Bachelor's Degree,4126571,1,6,5,5,8,9,7,9,Prototype,100
+47,Bachelor's Degree,3628622,19,6,7,4,2,3,2,9,MVP,92
+34,School,4828169,1,2,4,7,3,2,1,5,Early Revenue,69
+39,School,3308465,11,2,10,8,10,2,6,10,Early Revenue,100
+27,Master's Degree,1817775,19,6,1,3,5,9,4,2,Idea,79
+33,Bachelor's Degree,1852532,17,6,4,2,9,1,1,1,Idea,79
+24,PhD,3712450,3,1,10,3,9,2,5,3,Early Revenue,89
+28,Master's Degree,3740193,18,4,4,2,2,7,8,7,Scaling,86
+46,Master's Degree,3695214,11,8,8,9,2,9,7,2,Prototype,100
+45,PhD,4967645,8,1,5,7,4,10,4,7,Prototype,90
+42,PhD,129265,16,1,8,9,4,8,10,1,Prototype,90
+30,Diploma,2052162,12,7,1,1,1,8,7,9,MVP,87
+30,Bachelor's Degree,2985469,16,1,9,7,2,1,10,7,Idea,91
+34,Diploma,76047,19,8,8,9,8,4,3,9,Prototype,100
+50,Master's Degree,4567095,18,9,9,4,1,5,10,6,Idea,100
+47,Bachelor's Degree,4924006,16,6,3,7,8,7,9,4,Scaling,100
+31,PhD,142695,5,7,1,1,6,10,10,9,Idea,100
+21,Bachelor's Degree,4394485,17,3,1,1,4,10,4,5,Idea,76
+33,School,1189420,9,10,2,3,6,6,1,8,MVP,97
+19,Master's Degree,4177748,16,3,1,2,1,7,6,3,Early Revenue,66
+33,School,4572915,3,5,1,2,8,9,10,4,Early Revenue,90
+31,Diploma,3960861,8,3,6,2,8,5,10,2,Scaling,90
+19,School,117010,8,1,5,9,10,3,6,10,Scaling,100
+32,Diploma,819860,5,3,2,5,6,8,4,7,Early Revenue,88
+30,School,4615945,12,10,6,6,2,3,6,7,Scaling,100
+33,PhD,4894874,1,8,4,8,2,8,6,6,Early Revenue,93
+42,Master's Degree,3249309,17,9,8,9,1,4,10,7,Early Revenue,100
+41,School,726288,1,3,10,3,10,1,9,7,Early Revenue,100
+22,Master's Degree,433266,4,8,4,1,6,7,5,7,Early Revenue,97
+34,PhD,3241696,9,8,5,4,4,1,2,2,MVP,80
+48,Master's Degree,3309622,4,2,6,9,3,3,7,10,Early Revenue,95
+29,School,1014421,4,9,10,9,1,5,7,5,Idea,100
+48,PhD,2471353,19,9,3,1,1,4,3,1,Scaling,71
+45,School,581760,8,5,9,3,2,3,2,9,Idea,93
+41,Master's Degree,2748264,16,10,4,4,10,9,3,1,Prototype,100
+50,PhD,1930927,6,2,2,8,6,10,5,6,Early Revenue,90
+44,PhD,4881790,1,6,4,2,4,1,9,4,MVP,79
+47,Diploma,4844514,10,1,1,4,4,6,4,3,Early Revenue,67
+18,Bachelor's Degree,3353477,3,1,8,8,8,1,4,1,MVP,82
+37,School,1424543,14,2,2,9,5,4,5,5,Prototype,81
+33,Bachelor's Degree,4690605,5,9,2,10,6,10,3,2,Early Revenue,96
+39,School,2234499,15,6,8,3,9,4,8,6,Early Revenue,100
+20,Diploma,259680,14,4,1,9,8,1,9,3,MVP,86
+39,School,1157603,17,10,3,5,1,5,3,1,Scaling,78
+49,School,1074485,20,9,2,4,9,8,2,4,Idea,97
+28,Master's Degree,3272729,1,5,4,9,9,3,4,7,Idea,97
+31,Diploma,586122,2,10,10,7,3,6,10,9,Scaling,100
+40,PhD,3064021,16,6,5,9,10,7,7,7,Idea,100
+41,School,3414694,8,6,1,3,4,9,4,4,Prototype,81
+33,Diploma,4639963,9,2,10,7,2,7,8,3,MVP,91
+31,Bachelor's Degree,3816277,18,3,5,6,7,8,7,3,Early Revenue,92
+41,PhD,975917,13,9,4,5,2,1,7,8,Scaling,94
+28,Master's Degree,1332898,11,3,8,9,3,8,1,3,MVP,87
+40,PhD,2975299,6,1,5,5,7,9,10,4,Prototype,93
+18,Bachelor's Degree,1003121,8,6,3,1,2,4,6,6,Prototype,80
+37,Master's Degree,1791592,4,5,9,5,7,6,3,6,MVP,100
+48,Bachelor's Degree,3234365,16,4,10,7,1,8,9,5,MVP,99
+25,Master's Degree,3953897,12,9,7,1,10,7,1,7,Scaling,100
+34,Master's Degree,1030095,17,2,9,5,3,9,2,4,Prototype,87
+36,Diploma,4471573,20,10,2,9,8,8,10,8,Idea,100
+39,School,4286492,15,8,4,2,7,3,1,7,Prototype,93
+42,PhD,4297037,10,7,6,8,8,1,1,7,Idea,100
+23,Master's Degree,3373089,14,3,2,10,2,8,5,7,Idea,86
+47,PhD,3911871,1,8,4,4,3,4,6,3,Prototype,81
+36,School,4066308,18,8,6,4,10,5,10,5,Prototype,100
+38,PhD,4138762,14,3,7,7,1,2,9,6,Idea,87
+50,School,4587692,2,3,8,10,8,1,5,8,Idea,100
+42,Diploma,750621,3,1,8,5,2,5,1,1,MVP,68
+42,PhD,4807296,8,6,7,3,7,3,9,2,Idea,94
+39,PhD,2661630,19,2,5,7,9,10,1,4,Early Revenue,93
+26,Bachelor's Degree,3667209,12,6,7,6,9,1,3,4,Prototype,97
+46,PhD,2110642,10,8,2,2,6,4,10,2,MVP,87
+43,PhD,3094972,4,2,9,1,7,5,4,1,Idea,82
+50,Bachelor's Degree,2601909,1,6,4,6,9,9,2,7,Prototype,100
+41,PhD,1639160,4,8,8,1,2,10,7,9,Early Revenue,100
+27,Master's Degree,2679796,2,5,3,10,4,6,3,3,MVP,81
+50,School,1749236,11,5,8,3,2,4,7,6,Prototype,91
+47,Bachelor's Degree,4534235,5,10,6,10,5,5,3,7,Scaling,100
+32,School,1650748,14,8,2,1,8,10,3,9,Idea,100
+47,School,4096345,18,8,8,10,1,10,6,4,MVP,100
+49,Diploma,4367230,15,6,5,3,9,4,4,1,Prototype,88
+19,Diploma,1885741,6,4,8,8,3,4,6,6,Prototype,95
+30,PhD,2751241,19,5,7,3,7,7,4,2,Idea,91
+48,PhD,3276137,8,8,10,10,6,7,2,6,Early Revenue,100
+36,Master's Degree,299235,2,8,7,1,2,7,9,2,Scaling,87
+26,Master's Degree,2866494,3,6,10,1,3,2,10,6,Idea,96
+50,PhD,1129016,14,8,8,9,5,5,3,10,Idea,100
+38,Bachelor's Degree,814872,9,1,4,6,10,7,1,9,MVP,97
+24,Bachelor's Degree,3483217,11,5,3,6,2,3,2,9,Early Revenue,84
+20,School,2767411,15,8,8,8,8,2,6,1,MVP,100
+24,School,3012916,5,3,9,6,10,1,5,3,MVP,97
+34,Diploma,4993875,7,9,2,4,8,3,7,1,Early Revenue,89
+19,Master's Degree,4686437,8,6,5,9,10,10,4,3,MVP,100
+45,Bachelor's Degree,4599433,1,9,4,9,3,8,9,2,Early Revenue,93
+38,School,3202504,14,6,3,10,2,10,3,6,Scaling,92
+40,Diploma,216710,20,10,8,2,2,7,1,4,Idea,93
+37,PhD,880791,8,5,4,3,8,1,6,4,Idea,87
+37,Diploma,1438366,13,2,1,5,8,9,8,3,Early Revenue,85
+47,PhD,721853,11,7,3,8,1,7,8,3,MVP,86
+36,Master's Degree,579662,1,9,3,6,5,8,10,7,Prototype,100
+26,Bachelor's Degree,1607681,1,9,10,10,6,1,5,1,Idea,99
+42,Master's Degree,4520202,7,6,7,1,7,6,8,7,Scaling,100
+39,Master's Degree,2592725,20,7,1,6,1,10,6,5,Idea,85
+22,School,2109366,18,6,5,4,8,6,10,5,Prototype,100
+27,Master's Degree,268651,3,6,8,10,5,4,8,7,Prototype,100
+45,Bachelor's Degree,528731,3,4,10,3,8,8,1,6,Idea,100
+48,Master's Degree,4076312,16,9,6,9,7,6,5,3,Idea,100
+26,PhD,2515857,6,2,3,8,10,3,9,9,Early Revenue,100
+42,Bachelor's Degree,4091305,20,6,4,6,10,6,8,10,Early Revenue,100
+50,School,3461566,19,6,7,7,3,4,8,1,Early Revenue,88
+39,PhD,737635,20,2,4,1,7,8,8,6,Scaling,90
+41,Bachelor's Degree,4533486,15,5,4,7,5,3,2,3,MVP,81
+27,Diploma,169185,2,7,8,7,9,7,4,8,Idea,100
+31,Diploma,762053,1,8,7,2,3,6,4,10,Scaling,99
+21,Master's Degree,2823383,15,8,1,9,5,7,8,10,Early Revenue,100
+22,Diploma,820052,8,5,7,9,10,7,7,1,MVP,100
+41,Master's Degree,3043574,19,1,8,5,10,8,8,8,Idea,100
+34,Bachelor's Degree,3006382,3,9,4,2,1,7,2,2,Early Revenue,76
+41,Bachelor's Degree,3551886,9,9,5,7,2,3,7,8,Early Revenue,100
+48,Bachelor's Degree,158927,13,6,10,10,4,10,1,9,MVP,100
+37,School,1494858,14,7,1,9,3,2,9,2,MVP,81
+24,PhD,2276623,12,2,7,3,6,8,2,9,Idea,96
+49,School,608793,15,2,3,1,7,2,4,10,Idea,86
+32,PhD,3964840,16,9,10,8,1,3,5,3,Scaling,97
+22,School,2776302,6,5,6,2,2,2,7,2,MVP,76
+22,Master's Degree,929264,11,5,3,9,6,2,1,5,Idea,85
+19,PhD,2334435,5,6,9,3,9,2,5,7,Early Revenue,100
+25,School,4189759,9,5,9,2,5,8,5,6,Idea,100
+43,Master's Degree,4682128,7,6,9,7,3,2,1,8,Scaling,97
+44,School,883754,20,7,10,4,9,10,6,1,Early Revenue,100
+41,School,3518574,15,9,6,9,1,4,10,4,Prototype,98
+18,Bachelor's Degree,3016394,14,4,6,8,1,8,8,10,Prototype,100
+30,Bachelor's Degree,4026520,10,8,10,1,6,2,1,1,Prototype,89
+18,School,2373080,14,3,4,10,3,5,6,9,Idea,94
+21,Bachelor's Degree,3598259,19,5,1,2,9,3,6,6,Prototype,88
+34,Master's Degree,1525743,9,4,1,1,9,3,6,1,Idea,75
+29,Bachelor's Degree,2208319,16,5,6,6,10,6,10,5,Scaling,100
+29,Diploma,3250728,20,10,2,1,5,2,8,9,Scaling,98
+48,Diploma,345257,1,5,8,1,5,6,2,7,Prototype,90
+23,Bachelor's Degree,413692,16,5,5,5,5,10,1,2,Scaling,85
+38,Master's Degree,208397,12,3,3,10,2,4,10,8,Prototype,91
+36,School,2850551,2,6,6,4,1,10,8,6,Idea,92
+34,PhD,1750934,14,9,7,8,2,9,8,10,Early Revenue,100
+40,PhD,2421712,18,6,1,8,5,6,9,7,Idea,96
+23,Diploma,653557,1,10,4,7,1,4,9,10,Scaling,100
+30,Diploma,2781358,6,7,8,9,1,10,4,1,Idea,92
+18,Master's Degree,4973005,17,5,5,7,5,7,6,8,Idea,100
+28,Diploma,2024254,10,7,7,9,2,10,7,6,Scaling,100
+28,Bachelor's Degree,4939199,4,1,9,8,2,10,9,3,Prototype,91
+35,Master's Degree,2744922,2,6,3,2,3,4,1,3,Early Revenue,69
+36,Bachelor's Degree,3783737,18,9,6,1,6,9,7,6,Scaling,100
+28,Diploma,3777674,9,6,1,9,4,10,9,3,Prototype,91
+44,Master's Degree,1673168,2,8,7,8,10,3,1,6,Idea,100
+45,School,4191503,9,8,5,9,2,5,6,8,Idea,100
+34,Master's Degree,1965787,17,4,7,5,3,6,5,4,Early Revenue,87
+43,Bachelor's Degree,4628642,6,1,1,4,8,3,5,10,MVP,87
+18,Diploma,3263349,6,1,3,7,5,3,9,3,Prototype,78
+50,PhD,3023529,8,5,9,7,2,4,5,7,MVP,97
+48,Diploma,1613483,7,2,1,4,2,5,4,7,Scaling,72
+50,PhD,4374804,15,10,6,9,7,4,2,6,Scaling,100
+42,Diploma,2000462,13,7,7,6,7,7,8,1,Prototype,100
+36,Diploma,1493736,16,1,10,7,2,4,10,1,Early Revenue,84
+19,School,1820676,9,6,8,8,6,8,3,9,Idea,100
+25,Bachelor's Degree,2787837,6,1,1,10,8,9,6,10,Prototype,100
+40,School,4984916,18,9,9,6,2,8,10,6,MVP,100
+43,Master's Degree,333073,10,9,6,3,10,10,6,1,Prototype,100
+22,Bachelor's Degree,3017196,14,2,2,8,7,4,9,1,Scaling,80
+28,Diploma,4816933,18,4,10,10,10,5,8,6,Idea,100
+47,Master's Degree,798197,3,7,2,7,6,2,9,3,Idea,87
+45,Master's Degree,3274764,17,6,3,8,1,4,9,7,Idea,90
+28,School,3522659,3,5,4,3,3,6,10,8,Prototype,92
+33,School,600074,19,7,9,2,8,9,2,2,MVP,100
+27,Master's Degree,2173031,3,1,2,1,10,9,5,1,Scaling,76
+18,Bachelor's Degree,2287748,11,1,10,2,8,4,1,1,Idea,82
+31,PhD,3355913,16,10,8,4,2,4,6,3,Early Revenue,95
+40,Diploma,2204442,12,1,2,1,8,5,1,8,Prototype,80
+33,PhD,1495058,14,8,5,9,4,9,1,3,Idea,94
+19,Diploma,2925273,1,3,10,8,1,2,4,10,MVP,93
+31,School,911899,10,7,3,2,1,4,10,6,Idea,85
+25,Master's Degree,2696995,12,5,8,9,8,7,3,2,Scaling,100
+42,Diploma,1436138,3,2,6,2,6,10,2,8,Scaling,91
+34,Diploma,1822776,17,6,9,10,8,2,9,8,Idea,100
+49,Diploma,141861,6,3,9,10,2,3,3,9,Early Revenue,97
+36,PhD,4731843,5,4,5,10,8,7,7,5,Early Revenue,100
+39,School,1425936,8,9,7,5,6,8,4,4,Scaling,100
+24,School,3003658,4,2,5,1,3,3,7,5,Prototype,75
+39,Master's Degree,2880295,2,8,5,1,9,1,6,5,MVP,94
+21,School,3730145,8,2,1,5,3,2,4,1,Early Revenue,60
+32,Diploma,4406215,10,8,5,1,8,1,6,8,Scaling,100
+47,Bachelor's Degree,4909731,12,1,2,1,5,2,9,2,Idea,67
+28,Master's Degree,3534394,17,2,5,8,5,3,2,7,MVP,86
+36,Master's Degree,2980221,18,10,9,2,8,4,4,8,MVP,100
+25,Diploma,4486818,19,6,9,6,2,6,3,9,Scaling,100
+30,Diploma,3285581,10,8,6,4,1,1,5,8,Prototype,91
+35,School,367471,14,3,3,7,7,8,4,8,Prototype,96
+45,Diploma,4259292,11,3,6,8,5,6,4,2,Early Revenue,85
+25,PhD,80032,10,2,4,10,1,10,7,10,MVP,96
+40,Master's Degree,329913,11,7,2,4,5,4,8,6,Prototype,91
+22,School,3467586,7,6,5,8,8,6,1,6,Idea,100
+25,PhD,3573032,19,5,2,6,9,5,10,4,Prototype,96
+19,Master's Degree,3521570,8,10,7,5,9,3,7,5,Scaling,100
+36,Bachelor's Degree,127522,20,4,4,9,7,6,5,3,Prototype,91
+26,School,1269496,19,10,7,6,6,9,1,10,MVP,100
+41,Master's Degree,1361183,15,6,2,8,10,1,3,2,Early Revenue,87
+50,PhD,1788900,12,2,8,10,4,5,9,1,MVP,89
+18,School,1023806,8,9,3,4,9,8,7,8,Scaling,100
+38,Diploma,3498792,4,1,8,6,1,8,6,10,Idea,94
+30,School,810185,18,2,6,9,3,6,2,8,Idea,90
+39,Diploma,1059769,10,2,6,6,6,2,5,4,Scaling,84
+34,School,2433142,4,5,6,6,9,2,1,10,Prototype,100
+39,Diploma,4682325,13,4,7,9,1,2,8,8,Idea,94
+44,School,800645,5,9,8,2,8,10,9,4,MVP,100
+28,PhD,1920485,8,9,5,10,2,5,10,9,Idea,100

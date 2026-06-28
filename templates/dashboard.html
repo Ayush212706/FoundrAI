@@ -1,48 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
+{% block title %}Dashboard{% endblock %}
 
-<meta charset="UTF-8">
+{% block content %}
 
-<title>Founder Dashboard</title>
+<h1 class="mb-4">🚀 Founder Dashboard</h1>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<div class="row">
 
-</head>
+    <div class="col-md-4 mb-4">
 
-<body class="bg-dark text-white">
+        <div class="card metric-card">
 
-<div class="container mt-5">
+            <h2>{{ founder.score }}</h2>
 
-<h1>Founder Dashboard</h1>
+            <p>Founder Score</p>
 
-<hr>
+        </div>
 
-<div class="card p-4">
+    </div>
 
-<h3>{{ founder.name }}</h3>
+    <div class="col-md-4 mb-4">
 
-<p><strong>Age:</strong> {{ founder.age }}</p>
+        <div class="card metric-card">
 
-<p><strong>Education:</strong> {{ founder.education }}</p>
+            <h2>{{ founder.education }}</h2>
 
-<p><strong>Occupation:</strong> {{ founder.occupation }}</p>
+            <p>Education</p>
 
-<hr>
+        </div>
 
-<h2 class="text-success">
+    </div>
 
-Founder Score
+    <div class="col-md-4 mb-4">
 
-{{ founder.score }}/100
+        <div class="card metric-card">
 
-</h2>
+            <h2>{{ founder.occupation }}</h2>
+
+            <p>Occupation</p>
+
+        </div>
+
+    </div>
 
 </div>
 
+<div class="card p-4 mt-4">
+
+    <h3>🤖 AI Mentor</h3>
+
+    <hr>
+
+    <pre style="white-space:pre-wrap;">{{ founder.ai_advice }}</pre>
+
 </div>
 
-</body>
+<div class="card p-4 mt-4">
 
-</html>
+    <h3>📄 Founder Report</h3>
+
+    <a
+        href="/{{ founder.report_path }}"
+        target="_blank"
+        class="btn btn-success">
+
+        Download Founder Report
+
+    </a>
+
+</div>
+
+{% endblock %}

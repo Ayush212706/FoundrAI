@@ -1,6 +1,8 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, send_from_directory
+import os
 
 from src.services.assessment_service import process_assessment
+from src.rag.rag_service import ask_rag
 
 main = Blueprint("main", __name__)
 
@@ -33,3 +35,29 @@ def dashboard():
 @main.route("/report")
 def report():
     return render_template("report.html")
+
+
+@main.route("/chat", methods=["GET", "POST"])
+def chat():
+
+    if request.method == "POST":
+
+        question = request.form.get("question")
+
+        answer = ask_rag(question)
+
+        return render_template(
+            "chat.html",
+            answer=answer
+        )
+
+    return render_template("chat.html")
+
+
+@main.route("/reports/<path:filename>")
+def download_report(filename):
+
+    return send_from_directory(
+        os.path.join(os.getcwd(), "reports"),
+        filename
+    )
