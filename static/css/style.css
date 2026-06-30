@@ -1,81 +1,371 @@
-body{
-    background:#0f172a;
-    color:white;
-    font-family:Arial,Helvetica,sans-serif;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
+body{
+
+    background:#0f172a;
+
+    color:#ffffff;
+
+    font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+
+    min-height:100vh;
+
+}
+
+/* Navbar */
 
 .navbar{
+
     background:#111827 !important;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
 }
 
+.navbar-brand{
+
+    font-size:1.5rem;
+
+    font-weight:700;
+
+}
+
+.nav-link{
+
+    color:#d1d5db !important;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:#60a5fa !important;
+
+}
+
+/* Cards */
+
 .card{
+
     background:#1e293b;
+
     border:none;
+
     border-radius:18px;
-    box-shadow:0 8px 30px rgba(0,0,0,.35);
+
     color:white;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 25px 45px rgba(59,130,246,.25);
+
+}
+
+/* Buttons */
+
+.btn{
+
+    border-radius:12px;
+
+    font-weight:600;
+
 }
 
 .btn-primary{
-    background:#2563eb;
+
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+
     border:none;
-    border-radius:10px;
-    padding:12px 24px;
+
 }
 
 .btn-primary:hover{
-    background:#1d4ed8;
+
+    background:linear-gradient(135deg,#1d4ed8,#2563eb);
+
 }
 
+.btn-success{
+
+    background:linear-gradient(135deg,#10b981,#059669);
+
+    border:none;
+
+}
+
+.btn-success:hover{
+
+    background:linear-gradient(135deg,#059669,#047857);
+
+}
+
+/* Forms */
+
 .form-control,
+
 .form-select{
+
     background:#1e293b;
+
     color:white;
+
     border:1px solid #334155;
+
+    border-radius:12px;
+
 }
 
 .form-control:focus,
+
 .form-select:focus{
+
     background:#1e293b;
+
     color:white;
+
     border-color:#3b82f6;
-    box-shadow:none;
+
+    box-shadow:0 0 0 .25rem rgba(59,130,246,.25);
+
 }
 
 .form-control::placeholder{
+
     color:#94a3b8;
+
 }
 
+/* Tables */
+
+.table{
+
+    color:white;
+
+}
+
+.table th{
+
+    color:#93c5fd;
+
+    border-color:#334155;
+
+}
+
+.table td{
+
+    border-color:#334155;
+
+}
+
+/* Dashboard Headings */
+
+h1,h2,h3,h4,h5{
+
+    font-weight:700;
+
+}
+
+.text-secondary{
+
+    color:#94a3b8 !important;
+
+}
+
+/* Progress */
+
+.progress{
+
+    height:12px;
+
+    background:#334155;
+
+    border-radius:50px;
+
+}
+
+.progress-bar{
+
+    background:linear-gradient(90deg,#3b82f6,#60a5fa);
+
+}
+
+/* List Group */
+
+.list-group-item{
+
+    background:#1e293b;
+
+    color:white;
+
+    border:1px solid #334155;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#111827;
+
+}
+
+/* Hero */
+
 .hero{
-    padding:80px 0;
+
+    padding:90px 0;
+
 }
 
 .hero h1{
-    font-size:56px;
-    font-weight:700;
+
+    font-size:60px;
+
+    font-weight:800;
+
 }
 
 .hero p{
+
     color:#cbd5e1;
+
     font-size:20px;
+
 }
 
-.section-title{
-    font-size:34px;
-    font-weight:700;
-    margin-bottom:30px;
-}
+/* Stats Cards */
 
-.metric-card{
-    text-align:center;
+.stat-card{
+
     padding:25px;
+
 }
 
-.metric-card h2{
-    font-size:42px;
-    color:#60a5fa;
+.stat-card h1{
+
+    font-size:2.5rem;
+
+    font-weight:800;
+
 }
 
-.metric-card p{
-    color:#cbd5e1;
+.stat-card h5{
+
+    opacity:.9;
+
+}
+
+/* AI Advice */
+
+pre{
+
+    white-space:pre-wrap;
+
+    font-family:inherit;
+
+    line-height:1.8;
+
+}
+
+/* Chart */
+
+canvas{
+
+    max-width:100%;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0f172a;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#3b82f6;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#2563eb;
+
+}
+
+/* Animations */
+
+.fade-in{
+
+    animation:fade .6s ease;
+
+}
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.hero{
+
+padding:50px 0;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.card{
+
+margin-bottom:20px;
+
+}
+
 }

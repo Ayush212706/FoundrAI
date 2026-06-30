@@ -4,21 +4,47 @@
 
 {% block content %}
 
-<div class="container mt-5">
+<div class="container-fluid">
 
-    <h1 class="mb-4 text-center">🚀 Founder Dashboard</h1>
+    <div class="row mb-4">
 
-    <div class="row">
+        <div class="col-lg-8">
 
-        <div class="col-md-3 mb-4">
+            <h2 class="fw-bold">
+                👋 Welcome, {{ founder.name }}
+            </h2>
 
-            <div class="card text-center shadow border-0 bg-primary text-white">
+            <p class="text-secondary">
+                Your AI Co-Founder has analyzed your startup.
+            </p>
+
+        </div>
+
+        <div class="col-lg-4 text-lg-end">
+
+            <a href="/assessment" class="btn btn-primary">
+                New Assessment
+            </a>
+
+            <a href="/chat" class="btn btn-success">
+                AI Chat
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-md-3">
+
+            <div class="card shadow border-0 bg-primary text-white">
 
                 <div class="card-body">
 
-                    <h5>Founder Score</h5>
+                    <h6>Founder Score</h6>
 
-                    <h1>{{ founder.score|round(2) }}</h1>
+                    <h1>{{ founder.score|round(2) }}/100</h1>
 
                 </div>
 
@@ -26,13 +52,13 @@
 
         </div>
 
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3">
 
-            <div class="card text-center shadow border-0 bg-success text-white">
+            <div class="card shadow border-0 bg-success text-white">
 
                 <div class="card-body">
 
-                    <h5>Education</h5>
+                    <h6>Education</h6>
 
                     <h4>{{ founder.education }}</h4>
 
@@ -42,13 +68,13 @@
 
         </div>
 
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3">
 
-            <div class="card text-center shadow border-0 bg-warning">
+            <div class="card shadow border-0 bg-warning">
 
                 <div class="card-body">
 
-                    <h5>Occupation</h5>
+                    <h6>Occupation</h6>
 
                     <h4>{{ founder.occupation }}</h4>
 
@@ -58,13 +84,13 @@
 
         </div>
 
-        <div class="col-md-3 mb-4">
+        <div class="col-md-3">
 
-            <div class="card text-center shadow border-0 bg-dark text-white">
+            <div class="card shadow border-0 bg-dark text-white">
 
                 <div class="card-body">
 
-                    <h5>Startup Stage</h5>
+                    <h6>Startup Stage</h6>
 
                     <h4>{{ founder.startup_stage }}</h4>
 
@@ -76,125 +102,229 @@
 
     </div>
 
-    <div class="card shadow-lg border-0 mt-4">
+    <div class="row mt-4">
 
-        <div class="card-body">
+        <div class="col-lg-8">
 
-            <h3>🤖 AI Founder Mentor</h3>
+            <div class="card shadow border-0">
 
-            <hr>
+                <div class="card-body">
 
-            <pre style="white-space: pre-wrap; font-family: inherit;">{{ founder.ai_advice }}</pre>
+                    <h3>🤖 AI Founder Mentor</h3>
+
+                    <hr>
+
+                    <pre style="white-space: pre-wrap; font-family: inherit;">{{ founder.ai_advice }}</pre>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="card shadow border-0 mb-4">
+
+                <div class="card-body">
+
+                    <h4>📄 Founder Report</h4>
+
+                    <p>
+
+                        Download your personalized report.
+
+                    </p>
+
+                    <a href="/{{ founder.report_path }}"
+
+                       class="btn btn-success w-100"
+
+                       target="_blank">
+
+                        Download PDF
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card shadow border-0">
+
+                <div class="card-body">
+
+                    <h4>🎯 Suggested Tasks</h4>
+
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+
+                            Interview 10 Potential Customers
+
+                        </li>
+
+                        <li class="list-group-item">
+
+                            Improve Landing Page
+
+                        </li>
+
+                        <li class="list-group-item">
+
+                            Learn Marketing Basics
+
+                        </li>
+
+                        <li class="list-group-item">
+
+                            Validate Pricing
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
-    <div class="card shadow-lg border-0 mt-4">
+    <div class="row mt-4">
 
-        <div class="card-body">
+        <div class="col-lg-7">
 
-            <h3>📄 Founder Report</h3>
+            <div class="card shadow border-0">
 
-            <p>Your personalized founder report has been generated.</p>
+                <div class="card-body">
 
-            <a href="/{{ founder.report_path }}"
-               target="_blank"
-               class="btn btn-success">
+                    <h3>📈 Founder Skills</h3>
 
-                Download Founder Report
+                    <canvas id="skillsChart"></canvas>
 
-            </a>
+                </div>
+
+            </div>
 
         </div>
 
-    </div>
+        <div class="col-lg-5">
 
-    <div class="card shadow-lg border-0 mt-4">
+            <div class="card shadow border-0">
 
-        <div class="card-body">
+                <div class="card-body">
 
-            <h3>📈 Founder Skills</h3>
+                    <h3>💡 Skills Overview</h3>
 
-            <table class="table">
+                    <table class="table">
 
-                <tr>
-                    <th>Programming</th>
-                    <td>{{ founder.programming }}/10</td>
-                </tr>
+                        <tr>
 
-                <tr>
-                    <th>Marketing</th>
-                    <td>{{ founder.marketing }}/10</td>
-                </tr>
+                            <th>Programming</th>
 
-                <tr>
-                    <th>Finance</th>
-                    <td>{{ founder.finance }}/10</td>
-                </tr>
+                            <td>{{ founder.programming }}/10</td>
 
-                <tr>
-                    <th>Leadership</th>
-                    <td>{{ founder.leadership }}/10</td>
-                </tr>
+                        </tr>
 
-                <tr>
-                    <th>Communication</th>
-                    <td>{{ founder.communication }}/10</td>
-                </tr>
+                        <tr>
 
-                <tr>
-                    <th>Problem Solving</th>
-                    <td>{{ founder.problem_solving }}/10</td>
-                </tr>
+                            <th>Marketing</th>
 
-                <tr>
-                    <th>Risk Tolerance</th>
-                    <td>{{ founder.risk_tolerance }}/10</td>
-                </tr>
+                            <td>{{ founder.marketing }}/10</td>
 
-            </table>
+                        </tr>
+
+                        <tr>
+
+                            <th>Finance</th>
+
+                            <td>{{ founder.finance }}/10</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Leadership</th>
+
+                            <td>{{ founder.leadership }}/10</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Communication</th>
+
+                            <td>{{ founder.communication }}/10</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Problem Solving</th>
+
+                            <td>{{ founder.problem_solving }}/10</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Risk Tolerance</th>
+
+                            <td>{{ founder.risk_tolerance }}/10</td>
+
+                        </tr>
+
+                    </table>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
 
 </div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-<canvas id="skillsChart" height="120"></canvas>
+{% endblock %}
+
+{% block scripts %}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
 
-const ctx = document.getElementById("skillsChart");
+const ctx = document.getElementById('skillsChart');
 
 new Chart(ctx, {
 
-    type: "radar",
+    type: 'radar',
 
     data: {
 
         labels: [
 
-            "Programming",
+            'Programming',
 
-            "Marketing",
+            'Marketing',
 
-            "Finance",
+            'Finance',
 
-            "Leadership",
+            'Leadership',
 
-            "Communication",
+            'Communication',
 
-            "Problem Solving",
+            'Problem Solving',
 
-            "Risk"
+            'Risk'
 
         ],
 
         datasets: [{
 
-            label: "Founder Skills",
+            label: 'Founder Skills',
 
             data: [
 
@@ -212,13 +342,32 @@ new Chart(ctx, {
 
                 {{ founder.risk_tolerance }}
 
-            ]
+            ],
+
+            fill: true
 
         }]
+
+    },
+
+    options: {
+
+        responsive: true,
+
+        plugins: {
+
+            legend: {
+
+                display: true
+
+            }
+
+        }
 
     }
 
 });
 
+</script>
 
 {% endblock %}
