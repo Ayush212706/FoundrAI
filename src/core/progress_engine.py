@@ -1,87 +1,260 @@
 from datetime import datetime
 
 
+def _safe_value(founder, key, default=0):
+    """Safely retrieve numeric values from founder data."""
+    try:
+        return int(founder.get(key, default))
+    except (ValueError, TypeError):
+        return default
+
+
 def calculate_progress(founder):
+    """
+    Calculates overall founder progress, startup readiness,
+    strengths, weaknesses, and personalized recommendations.
+    """
 
     scores = {
-        "technical": founder["programming"],
-        "marketing": founder["marketing"],
-        "finance": founder["finance"],
-        "leadership": founder["leadership"],
-        "communication": founder["communication"],
-        "problem_solving": founder["problem_solving"],
-        "risk": founder["risk_tolerance"]
+        "Technical": _safe_value(founder, "programming"),
+        "Marketing": _safe_value(founder, "marketing"),
+        "Finance": _safe_value(founder, "finance"),
+        "Leadership": _safe_value(founder, "leadership"),
+        "Communication": _safe_value(founder, "communication"),
+        "Problem Solving": _safe_value(founder, "problem_solving"),
+        "Risk Tolerance": _safe_value(founder, "risk_tolerance"),
     }
 
-    overall = sum(scores.values()) / len(scores)
+    overall_score = round(sum(scores.values()) / len(scores), 2)
+    overall_progress = round(overall_score * 10, 2)
 
-    if overall >= 8:
-        level = "Excellent"
+    # --------------------------------------------------
+    # Founder Level
+    # --------------------------------------------------
 
-    elif overall >= 6:
-        level = "Good"
+    if overall_score >= 9:
+        founder_level = "Elite Founder"
 
-    elif overall >= 4:
-        level = "Average"
+    elif overall_score >= 8:
+        founder_level = "Excellent"
+
+    elif overall_score >= 6.5:
+        founder_level = "Good"
+
+    elif overall_score >= 5:
+        founder_level = "Average"
 
     else:
-        level = "Needs Improvement"
+        founder_level = "Needs Improvement"
 
-    startup_health = {
+    # --------------------------------------------------
+    # Startup Health
+    # --------------------------------------------------
 
-        "Product": "Healthy" if founder["programming"] >= 7 else "Needs Work",
+    startup_health = {}
 
-        "Marketing": "Healthy" if founder["marketing"] >= 7 else "Needs Work",
+    for skill, value in scores.items():
 
-        "Finance": "Healthy" if founder["finance"] >= 7 else "Needs Work",
+        if value >= 8:
+            status = "Healthy"
 
-        "Leadership": "Healthy" if founder["leadership"] >= 7 else "Needs Work"
+        elif value >= 5:
+            status = "Moderate"
 
+        else:
+            status = "Needs Work"
+
+        startup_health[skill] = status
+
+    # --------------------------------------------------
+    # Startup Stage Guidance
+    # --------------------------------------------------
+
+    stage = founder.get("startup_stage", "Idea")
+
+    milestones = {
+        "Idea": "Validate your idea with at least 20 potential users.",
+        "MVP": "Acquire your first 100 active users.",
+        "Growth": "Optimize revenue and prepare for scaling.",
+        "Scaling": "Build repeatable systems and expand the team."
     }
 
-    if founder["startup_stage"] == "Idea":
+    next_milestone = milestones.get(
+        stage,
+        "Continue improving your startup."
+    )
 
-        next_milestone = "Validate your idea with at least 20 potential users."
+    # --------------------------------------------------
+    # Strong & Weak Skills
+    # --------------------------------------------------
 
-    elif founder["startup_stage"] == "MVP":
+    strong_skills = [
+        skill
+        for skill, score in scores.items()
+        if score >= 8
+    ]
 
-        next_milestone = "Acquire your first 100 active users."
+    moderate_skills = [
+        skill
+        for skill, score in scores.items()
+        if 5 <= score < 8
+    ]
 
-    elif founder["startup_stage"] == "Growth":
+    weak_skills = [
+        skill
+        for skill, score in scores.items()
+        if score < 5
+    ]
 
-        next_milestone = "Optimize revenue and prepare for scaling."
+    # --------------------------------------------------
+    # Readiness Metrics
+    # --------------------------------------------------
 
-    else:
+    technical_readiness = round(
+        (scores["Technical"] + scores["Problem Solving"]) / 2 * 10,
+        2
+    )
 
-        next_milestone = "Continue improving your startup."
+    business_readiness = round(
+        (scores["Marketing"] + scores["Finance"]) / 2 * 10,
+        2
+    )
 
-    weak_skills = []
+    leadership_readiness = round(
+        (scores["Leadership"] + scores["Communication"]) / 2 * 10,
+        2
+    )
 
-    for skill, score in scores.items():
+    execution_readiness = round(
+        (
+            technical_readiness +
+            business_readiness +
+            leadership_readiness
+        ) / 3,
+        2
+    )
 
-        if score < 5:
-            weak_skills.append(skill.title())
+    # --------------------------------------------------
+    # AI Recommendations
+    # --------------------------------------------------
 
-    strong_skills = []
+    recommendations = []
 
-    for skill, score in scores.items():
+    if scores["Technical"] < 6:
+        recommendations.append(
+            "Improve technical skills by building real-world projects."
+        )
 
-        if score >= 8:
-            strong_skills.append(skill.title())
+    if scores["Marketing"] < 6:
+        recommendations.append(
+            "Focus on customer acquisition and digital marketing."
+        )
+
+    if scores["Finance"] < 6:
+        recommendations.append(
+            "Learn startup budgeting, pricing, and financial planning."
+        )
+
+    if scores["Leadership"] < 6:
+        recommendations.append(
+            "Develop leadership through collaboration and decision making."
+        )
+
+    if scores["Communication"] < 6:
+        recommendations.append(
+            "Practice pitching and communicating ideas clearly."
+        )
+
+    if scores["Risk Tolerance"] < 5:
+        recommendations.append(
+            "Work on making data-driven decisions with calculated risks."
+        )
+
+    if not recommendations:
+        recommendations.append(
+            "Maintain momentum and continue executing consistently."
+        )
+
+    # --------------------------------------------------
+    # Suggested Next Actions
+    # --------------------------------------------------
+
+    next_actions = []
+
+    if stage == "Idea":
+        next_actions.extend([
+            "Interview potential users.",
+            "Validate the core problem.",
+            "Create a simple MVP roadmap."
+        ])
+
+    elif stage == "MVP":
+        next_actions.extend([
+            "Launch to early adopters.",
+            "Collect product feedback.",
+            "Measure retention."
+        ])
+
+    elif stage == "Growth":
+        next_actions.extend([
+            "Increase customer acquisition.",
+            "Improve revenue channels.",
+            "Prepare hiring strategy."
+        ])
+
+    elif stage == "Scaling":
+        next_actions.extend([
+            "Build internal systems.",
+            "Delegate responsibilities.",
+            "Optimize operations."
+        ])
+
+    # --------------------------------------------------
+    # Progress Summary
+    # --------------------------------------------------
+
+    progress_summary = (
+        f"You are currently operating at {overall_progress:.1f}% "
+        f"overall founder readiness with a '{founder_level}' profile."
+    )
+
+    # --------------------------------------------------
+    # Return Result
+    # --------------------------------------------------
 
     return {
 
-        "overall_progress": round(overall * 10, 2),
+        "overall_progress": overall_progress,
 
-        "founder_level": level,
+        "overall_score": overall_score,
+
+        "founder_level": founder_level,
+
+        "startup_stage": stage,
 
         "startup_health": startup_health,
 
+        "technical_readiness": technical_readiness,
+
+        "business_readiness": business_readiness,
+
+        "leadership_readiness": leadership_readiness,
+
+        "execution_readiness": execution_readiness,
+
         "next_milestone": next_milestone,
+
+        "strong_skills": strong_skills,
+
+        "moderate_skills": moderate_skills,
 
         "weak_skills": weak_skills,
 
-        "strong_skills": strong_skills,
+        "recommendations": recommendations,
+
+        "next_actions": next_actions,
+
+        "summary": progress_summary,
 
         "generated_at": datetime.now().strftime("%d %B %Y %H:%M")
 
