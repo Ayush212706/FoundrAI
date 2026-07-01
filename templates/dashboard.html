@@ -4,29 +4,33 @@
 
 {% block content %}
 
-<div class="container-fluid">
+<div class="container-fluid fade-in">
 
-    <div class="row mb-4">
+    <!-- Header -->
+
+    <div class="row align-items-center mb-4">
 
         <div class="col-lg-8">
 
-            <h2 class="fw-bold">
-                👋 Welcome, {{ founder.name }}
+            <h2 class="fw-bold mb-1">
+                👋 Welcome, {{ founder.name or "Founder" }}
             </h2>
 
-            <p class="text-secondary">
-                Your AI Co-Founder has analyzed your startup.
+            <p class="text-secondary mb-0">
+                Your AI Co-Founder has analyzed your startup and prepared personalized insights.
             </p>
 
         </div>
 
-        <div class="col-lg-4 text-lg-end">
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
 
-            <a href="/assessment" class="btn btn-primary">
+            <a href="/assessment" class="btn btn-primary me-2">
+                <i class="bi bi-clipboard-plus"></i>
                 New Assessment
             </a>
 
             <a href="/chat" class="btn btn-success">
+                <i class="bi bi-robot"></i>
                 AI Chat
             </a>
 
@@ -34,17 +38,33 @@
 
     </div>
 
-    <div class="row g-4">
+    <!-- KPI Cards -->
 
-        <div class="col-md-3">
+    <div class="row g-4 mb-4">
 
-            <div class="card shadow border-0 bg-primary text-white">
+        <div class="col-lg-3 col-md-6">
+
+            <div class="card stat-card h-100">
 
                 <div class="card-body">
 
-                    <h6>Founder Score</h6>
+                    <div class="d-flex justify-content-between">
 
-                    <h1>{{ founder.score|round(2) }}/100</h1>
+                        <div>
+
+                            <h6 class="text-secondary">
+                                Founder Score
+                            </h6>
+
+                            <h1>
+                                {{ founder.score|default(0)|round(1) }}
+                            </h1>
+
+                        </div>
+
+                        <i class="bi bi-speedometer2 fs-1 text-primary"></i>
+
+                    </div>
 
                 </div>
 
@@ -52,15 +72,29 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card shadow border-0 bg-success text-white">
+            <div class="card stat-card h-100">
 
                 <div class="card-body">
 
-                    <h6>Education</h6>
+                    <div class="d-flex justify-content-between">
 
-                    <h4>{{ founder.education }}</h4>
+                        <div>
+
+                            <h6 class="text-secondary">
+                                Founder Level
+                            </h6>
+
+                            <h4>
+                                {{ progress.founder_level|default("N/A") }}
+                            </h4>
+
+                        </div>
+
+                        <i class="bi bi-award fs-1 text-warning"></i>
+
+                    </div>
 
                 </div>
 
@@ -68,15 +102,29 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card shadow border-0 bg-warning">
+            <div class="card stat-card h-100">
 
                 <div class="card-body">
 
-                    <h6>Occupation</h6>
+                    <div class="d-flex justify-content-between">
 
-                    <h4>{{ founder.occupation }}</h4>
+                        <div>
+
+                            <h6 class="text-secondary">
+                                Execution
+                            </h6>
+
+                            <h2>
+                                {{ progress.execution_readiness|default(0) }}%
+                            </h2>
+
+                        </div>
+
+                        <i class="bi bi-graph-up-arrow fs-1 text-success"></i>
+
+                    </div>
 
                 </div>
 
@@ -84,15 +132,29 @@
 
         </div>
 
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
 
-            <div class="card shadow border-0 bg-dark text-white">
+            <div class="card stat-card h-100">
 
                 <div class="card-body">
 
-                    <h6>Startup Stage</h6>
+                    <div class="d-flex justify-content-between">
 
-                    <h4>{{ founder.startup_stage }}</h4>
+                        <div>
+
+                            <h6 class="text-secondary">
+                                Startup Stage
+                            </h6>
+
+                            <h4>
+                                {{ founder.startup_stage }}
+                            </h4>
+
+                        </div>
+
+                        <i class="bi bi-rocket-takeoff fs-1 text-info"></i>
+
+                    </div>
 
                 </div>
 
@@ -102,19 +164,31 @@
 
     </div>
 
-    <div class="row mt-4">
+    <!-- AI Advice + Tasks -->
+
+    <div class="row g-4 mb-4">
 
         <div class="col-lg-8">
 
-            <div class="card shadow border-0">
+            <div class="card h-100">
 
                 <div class="card-body">
 
-                    <h3>🤖 AI Founder Mentor</h3>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+
+                        <h3 class="mb-0">
+                            🤖 AI Founder Mentor
+                        </h3>
+
+                        <span class="badge bg-primary">
+                            Personalized
+                        </span>
+
+                    </div>
 
                     <hr>
 
-                    <pre style="white-space: pre-wrap; font-family: inherit;">{{ founder.ai_advice }}</pre>
+                    <pre>{{ founder.ai_advice }}</pre>
 
                 </div>
 
@@ -124,23 +198,73 @@
 
         <div class="col-lg-4">
 
-            <div class="card shadow border-0 mb-4">
+            <div class="card mb-4">
 
                 <div class="card-body">
 
-                    <h4>📄 Founder Report</h4>
+                    <h4 class="mb-3">
+                        🎯 Today's Tasks
+                    </h4>
 
-                    <p>
+                    <div class="list-group list-group-flush">
 
-                        Download your personalized report.
+                        {% if tasks.tasks %}
+
+                            {% for task in tasks.tasks[:5] %}
+
+                            <div class="list-group-item">
+
+                                <div class="fw-semibold">
+
+                                    {{ task.title }}
+
+                                </div>
+
+                                <small class="text-secondary">
+
+                                    {{ task.priority }}
+
+                                </small>
+
+                            </div>
+
+                            {% endfor %}
+
+                        {% else %}
+
+                            <div class="list-group-item">
+
+                                No pending tasks.
+
+                            </div>
+
+                        {% endif %}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="card-body">
+
+                    <h4 class="mb-3">
+                        📄 Founder Report
+                    </h4>
+
+                    <p class="text-secondary">
+
+                        Download your latest AI-generated founder report.
 
                     </p>
 
                     <a href="/{{ founder.report_path }}"
+                       target="_blank"
+                       class="btn btn-success w-100">
 
-                       class="btn btn-success w-100"
-
-                       target="_blank">
+                        <i class="bi bi-download"></i>
 
                         Download PDF
 
@@ -150,59 +274,32 @@
 
             </div>
 
-            <div class="card shadow border-0">
-
-                <div class="card-body">
-
-                    <h4>🎯 Suggested Tasks</h4>
-
-                    <ul class="list-group list-group-flush">
-
-                        <li class="list-group-item">
-
-                            Interview 10 Potential Customers
-
-                        </li>
-
-                        <li class="list-group-item">
-
-                            Improve Landing Page
-
-                        </li>
-
-                        <li class="list-group-item">
-
-                            Learn Marketing Basics
-
-                        </li>
-
-                        <li class="list-group-item">
-
-                            Validate Pricing
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
         </div>
 
     </div>
+        <!-- Skills + Timeline -->
 
-    <div class="row mt-4">
+    <div class="row g-4 mb-4">
 
         <div class="col-lg-7">
 
-            <div class="card shadow border-0">
+            <div class="card h-100">
 
                 <div class="card-body">
 
-                    <h3>📈 Founder Skills</h3>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
 
-                    <canvas id="skillsChart"></canvas>
+                        <h3 class="mb-0">
+                            📊 Founder Skills
+                        </h3>
+
+                        <span class="badge bg-success">
+                            Live Assessment
+                        </span>
+
+                    </div>
+
+                    <canvas id="skillsChart" height="300"></canvas>
 
                 </div>
 
@@ -212,71 +309,199 @@
 
         <div class="col-lg-5">
 
-            <div class="card shadow border-0">
+            <div class="card h-100">
 
                 <div class="card-body">
 
-                    <h3>💡 Skills Overview</h3>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
 
-                    <table class="table">
+                        <h3 class="mb-0">
+                            🕒 Timeline
+                        </h3>
 
-                        <tr>
+                        <span class="badge bg-info">
+                            Recent
+                        </span>
 
-                            <th>Programming</th>
+                    </div>
 
-                            <td>{{ founder.programming }}/10</td>
+                    {% if timeline %}
 
-                        </tr>
+                        <div class="list-group list-group-flush">
 
-                        <tr>
+                            {% for event in timeline[:6] %}
 
-                            <th>Marketing</th>
+                            <div class="list-group-item">
 
-                            <td>{{ founder.marketing }}/10</td>
+                                <div class="d-flex justify-content-between">
 
-                        </tr>
+                                    <strong>
 
-                        <tr>
+                                        <i class="bi {{ event.icon }}"></i>
 
-                            <th>Finance</th>
+                                        {{ event.title }}
 
-                            <td>{{ founder.finance }}/10</td>
+                                    </strong>
 
-                        </tr>
+                                    <small class="text-secondary">
 
-                        <tr>
+                                        {{ event.date }}
 
-                            <th>Leadership</th>
+                                    </small>
 
-                            <td>{{ founder.leadership }}/10</td>
+                                </div>
 
-                        </tr>
+                                <div class="small mt-1 text-secondary">
 
-                        <tr>
+                                    {{ event.description }}
 
-                            <th>Communication</th>
+                                </div>
 
-                            <td>{{ founder.communication }}/10</td>
+                            </div>
 
-                        </tr>
+                            {% endfor %}
 
-                        <tr>
+                        </div>
 
-                            <th>Problem Solving</th>
+                    {% else %}
 
-                            <td>{{ founder.problem_solving }}/10</td>
+                        <div class="alert alert-dark mb-0">
 
-                        </tr>
+                            No timeline available yet.
 
-                        <tr>
+                        </div>
 
-                            <th>Risk Tolerance</th>
+                    {% endif %}
 
-                            <td>{{ founder.risk_tolerance }}/10</td>
+                </div>
 
-                        </tr>
+            </div>
 
-                    </table>
+        </div>
+
+    </div>
+
+    <!-- Startup Health -->
+
+    <div class="row g-4 mb-4">
+
+        <div class="col-lg-6">
+
+            <div class="card h-100">
+
+                <div class="card-body">
+
+                    <h3 class="mb-3">
+
+                        ❤️ Startup Health
+
+                    </h3>
+
+                    {% if progress.startup_health %}
+
+                        <table class="table table-borderless align-middle mb-0">
+
+                            <tbody>
+
+                            {% for key, value in progress.startup_health.items() %}
+
+                                <tr>
+
+                                    <td>{{ key }}</td>
+
+                                    <td class="text-end">
+
+                                        {% if value == "Healthy" %}
+
+                                            <span class="badge bg-success">
+
+                                                {{ value }}
+
+                                            </span>
+
+                                        {% elif value == "Moderate" %}
+
+                                            <span class="badge bg-warning text-dark">
+
+                                                {{ value }}
+
+                                            </span>
+
+                                        {% else %}
+
+                                            <span class="badge bg-danger">
+
+                                                {{ value }}
+
+                                            </span>
+
+                                        {% endif %}
+
+                                    </td>
+
+                                </tr>
+
+                            {% endfor %}
+
+                            </tbody>
+
+                        </table>
+
+                    {% else %}
+
+                        <p class="text-secondary mb-0">
+
+                            Startup health will appear after assessment.
+
+                        </p>
+
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <div class="card h-100">
+
+                <div class="card-body">
+
+                    <h3 class="mb-3">
+
+                        🚀 Quick Actions
+
+                    </h3>
+
+                    <div class="d-grid gap-3">
+
+                        <a href="/assessment" class="btn btn-primary">
+
+                            <i class="bi bi-arrow-repeat"></i>
+
+                            Take New Assessment
+
+                        </a>
+
+                        <a href="/chat" class="btn btn-success">
+
+                            <i class="bi bi-robot"></i>
+
+                            Talk to AI Co-Founder
+
+                        </a>
+
+                        <a href="/{{ founder.report_path }}" target="_blank" class="btn btn-outline-light">
+
+                            <i class="bi bi-file-earmark-pdf"></i>
+
+                            Download Founder Report
+
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -296,78 +521,26 @@
 
 <script>
 
-const ctx = document.getElementById('skillsChart');
+window.founderData = {
 
-new Chart(ctx, {
+    programming: {{ founder.programming|default(0) }},
 
-    type: 'radar',
+    marketing: {{ founder.marketing|default(0) }},
 
-    data: {
+    finance: {{ founder.finance|default(0) }},
 
-        labels: [
+    leadership: {{ founder.leadership|default(0) }},
 
-            'Programming',
+    communication: {{ founder.communication|default(0) }},
 
-            'Marketing',
+    problem_solving: {{ founder.problem_solving|default(0) }},
 
-            'Finance',
+    risk: {{ founder.risk_tolerance|default(0) }}
 
-            'Leadership',
-
-            'Communication',
-
-            'Problem Solving',
-
-            'Risk'
-
-        ],
-
-        datasets: [{
-
-            label: 'Founder Skills',
-
-            data: [
-
-                {{ founder.programming }},
-
-                {{ founder.marketing }},
-
-                {{ founder.finance }},
-
-                {{ founder.leadership }},
-
-                {{ founder.communication }},
-
-                {{ founder.problem_solving }},
-
-                {{ founder.risk_tolerance }}
-
-            ],
-
-            fill: true
-
-        }]
-
-    },
-
-    options: {
-
-        responsive: true,
-
-        plugins: {
-
-            legend: {
-
-                display: true
-
-            }
-
-        }
-
-    }
-
-});
+};
 
 </script>
+
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
 
 {% endblock %}

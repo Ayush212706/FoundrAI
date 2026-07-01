@@ -1,46 +1,128 @@
 {% extends "base.html" %}
 
-{% block title %}Login{% endblock %}
+{% block title %}Founder Login{% endblock %}
 
 {% block content %}
 
-<div class="container mt-5" style="max-width:600px">
+<div class="container py-5">
 
-<h2>Founder Login</h2>
+    <div class="row justify-content-center">
 
-<form method="POST">
+        <div class="col-lg-5">
 
-<div class="mb-3">
+            <div class="card shadow-lg">
 
-<label>Email</label>
+                <div class="card-body p-5">
 
-<input
-type="email"
-class="form-control"
-name="email"
-required>
+                    <h2 class="text-center mb-2">
+                        🚀 Welcome Back
+                    </h2>
 
-</div>
+                    <p class="text-center text-secondary mb-4">
+                        Login to your FoundrAI account
+                    </p>
 
-<div class="mb-3">
+                    {% with messages = get_flashed_messages(with_categories=true) %}
 
-<label>Password</label>
+                        {% if messages %}
 
-<input
-type="password"
-class="form-control"
-name="password"
-required>
+                            {% for category, message in messages %}
 
-</div>
+                                <div class="alert alert-{{ category }}">
 
-<button class="btn btn-success w-100">
+                                    {{ message }}
 
-Login
+                                </div>
 
-</button>
+                            {% endfor %}
 
-</form>
+                        {% endif %}
+
+                    {% endwith %}
+
+                    <form method="POST">
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Email
+
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Password
+
+                            </label>
+
+                            <input
+                                id="password"
+                                type="password"
+                                class="form-control"
+                                name="password"
+                                required>
+
+                        </div>
+
+                        <div class="form-check mb-4">
+
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                name="remember"
+                                id="remember">
+
+                            <label
+                                class="form-check-label"
+                                for="remember">
+
+                                Remember Me
+
+                            </label>
+
+                        </div>
+
+                        <button
+                            class="btn btn-success w-100">
+
+                            Login
+
+                        </button>
+
+                    </form>
+
+                    <hr>
+
+                    <p class="text-center mb-0">
+
+                        New to FoundrAI?
+
+                        <a href="/register">
+
+                            Create Account
+
+                        </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 

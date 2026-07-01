@@ -1,62 +1,156 @@
 {% extends "base.html" %}
 
-{% block title %}Register{% endblock %}
+{% block title %}Create Founder Account{% endblock %}
 
 {% block content %}
 
-<div class="container mt-5" style="max-width:600px">
+<div class="container py-5">
 
-<h2>Create Founder Account</h2>
+    <div class="row justify-content-center">
 
-<form method="POST">
+        <div class="col-lg-6">
 
-<div class="mb-3">
-<label>Username</label>
-<input
-class="form-control"
-name="username"
-required>
-</div>
+            <div class="card shadow-lg">
 
-<div class="mb-3">
-<label>Email</label>
-<input
-type="email"
-class="form-control"
-name="email"
-required>
-</div>
+                <div class="card-body p-5">
 
-<div class="mb-3">
-<label>Password</label>
-<input
-type="password"
-class="form-control"
-name="password"
-required>
-</div>
+                    <h2 class="text-center mb-2">
 
-<div class="mb-3">
-<label>Startup Name</label>
-<input
-class="form-control"
-name="startup_name">
-</div>
+                        🚀 Create Founder Account
 
-<div class="mb-3">
-<label>Industry</label>
-<input
-class="form-control"
-name="industry">
-</div>
+                    </h2>
 
-<button class="btn btn-primary w-100">
+                    <p class="text-center text-secondary mb-4">
 
-Create Account
+                        Start building with your AI Co-Founder
 
-</button>
+                    </p>
 
-</form>
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+
+                        {% if messages %}
+
+                            {% for category, message in messages %}
+
+                                <div class="alert alert-{{ category }}">
+
+                                    {{ message }}
+
+                                </div>
+
+                            {% endfor %}
+
+                        {% endif %}
+
+                    {% endwith %}
+
+                    <form method="POST">
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Username
+
+                            </label>
+
+                            <input
+                                class="form-control"
+                                name="username"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Email
+
+                            </label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Password
+
+                            </label>
+
+                            <input
+                                type="password"
+                                class="form-control"
+                                name="password"
+                                required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+
+                                Startup Name
+
+                            </label>
+
+                            <input
+                                class="form-control"
+                                name="startup_name">
+
+                        </div>
+
+                        <div class="mb-4">
+
+                            <label class="form-label">
+
+                                Industry
+
+                            </label>
+
+                            <input
+                                class="form-control"
+                                name="industry">
+
+                        </div>
+
+                        <button
+                            class="btn btn-primary w-100">
+
+                            Create Account
+
+                        </button>
+
+                    </form>
+
+                    <hr>
+
+                    <p class="text-center mb-0">
+
+                        Already have an account?
+
+                        <a href="/login">
+
+                            Login
+
+                        </a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 
